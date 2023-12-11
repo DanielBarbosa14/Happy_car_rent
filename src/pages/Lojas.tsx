@@ -131,8 +131,11 @@
                   </IonRow>
                 </IonGrid>
 
-                {/* Botão para fechar a modal */}
-                <IonButton onClick={handleCloseModal}>Fechar</IonButton>
+                 {/* Botão para fechar a modal */}
+                 <IonButton onClick={handleCloseModal}>Fechar</IonButton>
+                <a href="./Frota/" target="_blank">
+                <IonButton> Frota </IonButton>
+                </a>
               </IonContent>
             </IonModal>
           )}
