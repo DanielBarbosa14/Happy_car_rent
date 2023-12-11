@@ -58,7 +58,7 @@ const Frota: React.FC = () => {
             <IonButton onClick={() => setShowModal(true)}>Open Modal</IonButton>
           </IonItem>
           <IonItem>
-            <IonLabel>Ford Puma</IonLabel>
+            <IonLabel>Mustang</IonLabel>
             <IonButton onClick={() => setShowModal(true)}>Open Modal</IonButton>
           </IonItem>
           <IonItem>
