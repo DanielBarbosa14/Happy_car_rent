@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   IonButtons,
   IonContent,
@@ -7,40 +7,55 @@ import {
   IonPage,
   IonTitle,
   IonToolbar,
+  IonList,
   IonItem,
   IonLabel,
-  IonList,
+  IonButton,
+  IonModal,
+  IonHeader as ModalHeader,
+  IonContent as ModalContent,
+  IonToolbar as ModalToolbar,
+  IonTitle as ModalTitle,
 } from '@ionic/react';
-import { useParams } from 'react-router';
+import { useHistory } from 'react-router-dom';
 import ExploreContainer from '../components/ExploreContainer';
 import './Lojas.css';
 
-const Example: React.FC = () => {
-  return (
-    <IonContent color="light">
-      <IonList inset={true}>
-        <IonItem>
-          <IonLabel>Pokémon Yellow</IonLabel>
-        </IonItem>
-        <IonItem>
-          <IonLabel>Mega Man X</IonLabel>
-        </IonItem>
-        <IonItem>
-          <IonLabel>The Legend of Zelda</IonLabel>
-        </IonItem>
-        <IonItem>
-          <IonLabel>Pac-Man</IonLabel>
-        </IonItem>
-        <IonItem>
-          <IonLabel>Super Mario World</IonLabel>
-        </IonItem>
-      </IonList>
-    </IonContent>
-  );
-};
+// Exemplo de lista de lojas
+const lojasData = [
+  {
+    id: 1,
+    nome: 'Viana do Castelo',
+    imagemCidade: 'url_imagem_loja_a',
+    morada: 'Rua do pedreiros',
+    mapa: 'url_mapa_loja_a',
+  },
+  // Adicione mais lojas conforme necessário
+];
 
 const Lojas: React.FC = () => {
-  const { name } = useParams<{ name: string }>();
+  const [selectedLoja, setSelectedLoja] = useState(null);
+  const [showModal, setShowModal] = useState(false);
+  const history = useHistory();
+
+  const openModal = (loja) => {
+    setSelectedLoja(loja);
+    setShowModal(true);
+  };
+
+  const closeModal = () => {
+    setSelectedLoja(null);
+    setShowModal(false);
+  };
+
+  const navigateToFrota = () => {
+    if (selectedLoja) {
+      // Aqui você pode navegar para a página da frota e aplicar o filtro necessário
+      // Substitua 'selectedLoja.id' pelo identificador real da loja
+      history.push(`/frota/${selectedLoja.id}`);
+    }
+    closeModal();
+  };
 
   return (
     <IonPage>
@@ -56,12 +71,40 @@ const Lojas: React.FC = () => {
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">{name}</IonTitle>
+            <IonTitle size="large">Lojas</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name={name} />
-        {/* Include the Example component here */}
-        <Example />
+        <ExploreContainer name="Lojas" />
+
+        {/* Lista de Lojas */}
+        <IonList>
+          {lojasData.map((loja) => (
+            <IonItem key={loja.id} onClick={() => openModal(loja)}>
+              <IonLabel>{loja.nome}</IonLabel>
+            </IonItem>
+          ))}
+        </IonList>
+
+        {/* Modal com informações da loja */}
+        <IonModal isOpen={showModal} onDidDismiss={closeModal}>
+          <ModalHeader>
+            <ModalToolbar>
+              <IonTitle>{selectedLoja?.nome}</IonTitle>
+            </ModalToolbar>
+          </ModalHeader>
+          <ModalContent>
+            {/* Conteúdo da modal */}
+            {selectedLoja && (
+              <div>
+                <img src={selectedLoja.imagemCidade} alt={`Cidade da ${selectedLoja.nome}`} />
+                <p>Morada: {selectedLoja.morada}</p>
+                {/* Adicione aqui um componente de mapa usando selectedLoja.mapa */}
+                <IonButton onClick={navigateToFrota}>Consultar Lista de Carros</IonButton>
+                <IonButton onClick={closeModal}>Fechar</IonButton>
+              </div>
+            )}
+          </ModalContent>
+        </IonModal>
       </IonContent>
     </IonPage>
   );
