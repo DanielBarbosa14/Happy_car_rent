@@ -132,7 +132,7 @@
                 </IonGrid>
 
                 {/* Botão para fechar a modal */}
-                <IonButton onClick={handleCloseModal}>Fechar Modal</IonButton>
+                <IonButton onClick={handleCloseModal}>Fechar</IonButton>
               </IonContent>
             </IonModal>
           )}
