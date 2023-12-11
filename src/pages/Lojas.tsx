@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   IonButtons,
   IonContent,
@@ -7,40 +7,20 @@ import {
   IonPage,
   IonTitle,
   IonToolbar,
+  IonButton,
+  IonModal,
+  IonList,
   IonItem,
   IonLabel,
-  IonList,
+  IonImg,
 } from '@ionic/react';
 import { useParams } from 'react-router';
 import ExploreContainer from '../components/ExploreContainer';
 import './Lojas.css';
 
-const Example: React.FC = () => {
-  return (
-    <IonContent color="light">
-      <IonList inset={true}>
-        <IonItem>
-          <IonLabel>Pokémon Yellow</IonLabel>
-        </IonItem>
-        <IonItem>
-          <IonLabel>Mega Man X</IonLabel>
-        </IonItem>
-        <IonItem>
-          <IonLabel>The Legend of Zelda</IonLabel>
-        </IonItem>
-        <IonItem>
-          <IonLabel>Pac-Man</IonLabel>
-        </IonItem>
-        <IonItem>
-          <IonLabel>Super Mario World</IonLabel>
-        </IonItem>
-      </IonList>
-    </IonContent>
-  );
-};
-
 const Lojas: React.FC = () => {
   const { name } = useParams<{ name: string }>();
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <IonPage>
@@ -60,8 +40,41 @@ const Lojas: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <ExploreContainer name={name} />
-        {/* Include the Example component here */}
-        <Example />
+
+        <IonList>
+          <IonItem>
+            <IonLabel>Viana do castelo</IonLabel>
+            <IonButton onClick={() => setShowModal(true)}>Ver mais</IonButton>
+            <IonModal isOpen={showModal} onDidDismiss={() => setShowModal(false)}>
+          <IonContent>
+            <IonTitle></IonTitle>
+            <IonImg src="https://iili.io/EkXCvt.md.jpg" alt="Descrição da imagem" style={{ width: '100%', height: 'auto' }} />
+            <IonButton onClick={() => setShowModal(false)}>Fechar Modal</IonButton>
+          </IonContent>
+        </IonModal>
+          </IonItem>
+          
+          <IonItem>
+            <IonLabel>Braga</IonLabel>
+            <IonButton onClick={() => setShowModal(true)}>Ver mais </IonButton>
+            <IonModal isOpen={showModal} onDidDismiss={() => setShowModal(false)}>
+          <IonContent>
+            <IonTitle></IonTitle>
+            <IonImg src="https://iili.io/EkXCvt.md.jpg" alt="Descrição da imagem" style={{ width: '100%', height: 'auto' }} />
+            <IonButton onClick={() => setShowModal(false)}>Fechar Modal</IonButton>
+          </IonContent>
+        </IonModal>
+          </IonItem>
+          
+        </IonList>
+
+        <IonModal isOpen={showModal} onDidDismiss={() => setShowModal(false)}>
+          <IonContent>
+            <IonTitle></IonTitle>
+            <IonImg src="https://iili.io/EkXCvt.md.jpg" alt="Descrição da imagem" style={{ width: '100%', height: 'auto' }} />
+            <IonButton onClick={() => setShowModal(false)}>Fechar Modal</IonButton>
+          </IonContent>
+        </IonModal>
       </IonContent>
     </IonPage>
   );
