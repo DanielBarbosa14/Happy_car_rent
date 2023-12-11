@@ -29,6 +29,8 @@ interface Store {
   image: string;
 }
 
+// ... (imports omitidos para brevidade)
+
 const Lojas: React.FC = () => {
   const { name } = useParams<{ name: string }>();
   const [showModal, setShowModal] = useState(false);
@@ -56,7 +58,20 @@ const Lojas: React.FC = () => {
       dailyRentPrice: 'Preço do aluguer por dia da Loja C',
       image: 'loja_c.jpg',
     },
-    // Adicione mais lojas conforme necessário
+    {
+      name: 'Loja D',
+      description: 'Descrição da Loja D',
+      technicalData: 'Dados técnicos da Loja D',
+      dailyRentPrice: 'Preço do aluguer por dia da Loja D',
+      image: 'loja_d.jpg',
+    },
+    {
+      name: 'Loja E',
+      description: 'Descrição da Loja E',
+      technicalData: 'Dados técnicos da Loja E',
+      dailyRentPrice: 'Preço do aluguer por dia da Loja E',
+      image: 'loja_e.jpg',
+    },
   ];
 
   const handleOpenModal = (store: Store) => {
@@ -135,3 +150,4 @@ const Lojas: React.FC = () => {
 };
 
 export default Lojas;
+
