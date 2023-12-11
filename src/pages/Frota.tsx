@@ -29,7 +29,6 @@ interface Car {
 }
 
 const generateRandomPrice = () => {
-  // Gerar um preço aleatório entre 50 e 150
   const randomPrice = (Math.random() * (150 - 50) + 50).toFixed(2);
   return `€${randomPrice}`;
 };
@@ -310,10 +309,8 @@ const Frota: React.FC = () => {
             <IonContent>
               <IonTitle>{selectedCar.name}</IonTitle>
 
-              {/* Adicione aqui a imagem ilustrativa do carro */}
               <IonImg src="caminho/para/imagem.jpg" />
 
-              {/* Informações do carro */}
               <IonGrid>
                 <IonRow>
                   <IonCol>
@@ -332,7 +329,6 @@ const Frota: React.FC = () => {
                 </IonRow>
               </IonGrid>
 
-              {/* Botão para fechar a modal */}
               <IonButton onClick={handleCloseModal}>Fechar</IonButton>
             </IonContent>
           </IonModal>
