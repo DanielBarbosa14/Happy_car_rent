@@ -12,6 +12,7 @@ import {
   IonList,
   IonItem,
   IonLabel,
+  IonImg,
   IonGrid,
   IonRow,
   IonCol,
@@ -23,7 +24,9 @@ import './Lojas.css';
 interface Store {
   name: string;
   description: string;
-  location: { latitude: number; longitude: number };
+  technicalData: string;
+  dailyRentPrice: string;
+  image: string;
 }
 
 const Lojas: React.FC = () => {
@@ -35,17 +38,23 @@ const Lojas: React.FC = () => {
     {
       name: 'Loja A',
       description: 'Descrição da Loja A',
-      location: { latitude: 40.7128, longitude: -74.0060 }, // Exemplo de coordenadas para Nova Iorque
+      technicalData: 'Dados técnicos da Loja A',
+      dailyRentPrice: 'Preço do aluguer por dia da Loja A',
+      image: 'loja_a.jpg',
     },
     {
       name: 'Loja B',
       description: 'Descrição da Loja B',
-      location: { latitude: 34.0522, longitude: -118.2437 }, // Exemplo de coordenadas para Los Angeles
+      technicalData: 'Dados técnicos da Loja B',
+      dailyRentPrice: 'Preço do aluguer por dia da Loja B',
+      image: 'loja_b.jpg',
     },
     {
       name: 'Loja C',
       description: 'Descrição da Loja C',
-      location: { latitude: 41.8781, longitude: -87.6298 }, // Exemplo de coordenadas para Chicago
+      technicalData: 'Dados técnicos da Loja C',
+      dailyRentPrice: 'Preço do aluguer por dia da Loja C',
+      image: 'loja_c.jpg',
     },
     // Adicione mais lojas conforme necessário
   ];
@@ -94,7 +103,9 @@ const Lojas: React.FC = () => {
             <IonContent>
               <IonTitle>{selectedStore.name}</IonTitle>
 
-              {/* Informações da loja */}
+              {/* Adicione aqui a imagem ilustrativa da loja */}
+              <IonImg src={selectedStore.image} style={{ width: '100%', height: '200px' }} />
+
               <IonGrid>
                 <IonRow>
                   <IonCol>
@@ -103,12 +114,12 @@ const Lojas: React.FC = () => {
                 </IonRow>
                 <IonRow>
                   <IonCol>
-                    <IonLabel>Latitude: {selectedStore.location.latitude}</IonLabel>
+                    <IonLabel>{selectedStore.technicalData}</IonLabel>
                   </IonCol>
                 </IonRow>
                 <IonRow>
                   <IonCol>
-                    <IonLabel>Longitude: {selectedStore.location.longitude}</IonLabel>
+                    <IonLabel>{selectedStore.dailyRentPrice}</IonLabel>
                   </IonCol>
                 </IonRow>
               </IonGrid>
