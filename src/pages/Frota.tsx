@@ -23,10 +23,16 @@ import './Frota.css';
 
 interface Car {
   name: string;
-  description: string;
+  description: React.ReactNode;
   technicalData: string;
   dailyRentPrice: string;
 }
+
+const generateRandomPrice = () => {
+  // Gerar um preço aleatório entre 50 e 150
+  const randomPrice = (Math.random() * (150 - 50) + 50).toFixed(2);
+  return `R$ ${randomPrice} por dia`;
+};
 
 const Frota: React.FC = () => {
   const { name } = useParams<{ name: string }>();
@@ -36,71 +42,72 @@ const Frota: React.FC = () => {
   const cars: Car[] = [
     {
       name: 'Toyota Corolla',
-      description: 'Descrição do Toyota Corolla',
-      technicalData: 'Dados técnicos do Toyota Corolla',
-      dailyRentPrice: 'Preço do aluguer por dia do Toyota Corolla',
-    },
-    {
-      name: 'Honda Civic',
-      description: 'Descrição do Honda Civic',
-      technicalData: 'Dados técnicos do Honda Civic',
-      dailyRentPrice: 'Preço do aluguer por dia do Honda Civic',
-    },
-    {
-      name: 'Ford Focus',
-      description: 'Descrição do Ford Focus',
-      technicalData: 'Dados técnicos do Ford Focus',
-      dailyRentPrice: 'Preço do aluguer por dia do Ford Focus',
-    },
-    {
-      name: 'Chevrolet Cruze',
-      description: 'Descrição do Chevrolet Cruze',
-      technicalData: 'Dados técnicos do Chevrolet Cruze',
-      dailyRentPrice: 'Preço do aluguer por dia do Chevrolet Cruze',
-    },
-    {
-      name: 'Volkswagen Golf',
-      description: 'Descrição do Volkswagen Golf',
-      technicalData: 'Dados técnicos do Volkswagen Golf',
-      dailyRentPrice: 'Preço do aluguer por dia do Volkswagen Golf',
-    },
-    {
-      name: 'Nissan Altima',
-      description: 'Descrição do Nissan Altima',
-      technicalData: 'Dados técnicos do Nissan Altima',
-      dailyRentPrice: 'Preço do aluguer por dia do Nissan Altima',
-    },
-    {
-      name: 'Mazda CX-5',
-      description: 'Descrição do Mazda CX-5',
-      technicalData: 'Dados técnicos do Mazda CX-5',
-      dailyRentPrice: 'Preço do aluguer por dia do Mazda CX-5',
-    },
-    {
-      name: 'Subaru Outback',
-      description: 'Descrição do Subaru Outback',
-      technicalData: 'Dados técnicos do Subaru Outback',
-      dailyRentPrice: 'Preço do aluguer por dia do Subaru Outback',
-    },
-    {
-      name: 'Hyundai Sonata',
-      description: 'Descrição do Hyundai Sonata',
-      technicalData: 'Dados técnicos do Hyundai Sonata',
-      dailyRentPrice: 'Preço do aluguer por dia do Hyundai Sonata',
-    },
-    {
-      name: 'Kia Sportage',
-      description: 'Descrição do Kia Sportage',
-      technicalData: 'Dados técnicos do Kia Sportage',
-      dailyRentPrice: 'Preço do aluguer por dia do Kia Sportage',
-    },
-    {
-      name: 'Jeep Wrangler',
-      description: 'Descrição do Jeep Wrangler',
-      technicalData: 'Dados técnicos do Jeep Wrangler',
-      dailyRentPrice: 'Preço do aluguer por dia do Jeep Wrangler',
-    },
+      description: (
+        <>
+          <p>
+            <strong>Design Exterior:</strong>
+          </p>
+          <ul>
+            <li>O Toyota Corolla possui um design moderno e aerodinâmico que combina elegância e estilo.</li>
+            <li>Linhas fluidas e detalhes cuidadosamente esculpidos contribuem para sua estética atraente.</li>
+            <li>Disponível em uma variedade de cores vibrantes e opções de acabamento.</li>
+          </ul>
 
+          <p>
+            <strong>Interior Espaçoso e Confortável:</strong>
+          </p>
+          <ul>
+            <li>O interior do Corolla é espaçoso, oferecendo amplo espaço para passageiros e bagagem.</li>
+            <li>Materiais de alta qualidade e acabamentos refinados proporcionam um ambiente confortável.</li>
+            <li>Assentos ergonomicamente projetados garantem conforto durante viagens longas.</li>
+          </ul>
+
+          <p>
+            <strong>Tecnologia Avançada:</strong>
+          </p>
+          <ul>
+            <li>Equipado com um sistema de infoentretenimento moderno, incluindo tela sensível ao toque.</li>
+            <li>Recursos de conectividade, como Bluetooth e integração com smartphones, proporcionam uma experiência de condução conectada.</li>
+            <li>Sistemas avançados de assistência ao condutor, como alerta de colisão e controle de cruzeiro adaptativo.</li>
+          </ul>
+
+          <p>
+            <strong>Opção Popular de Aluguer:</strong>
+          </p>
+          <ul>
+            <li>Reconhecido por sua confiabilidade, o Corolla é uma escolha popular para aluguer de veículos.</li>
+            <li>Custos acessíveis de aluguer tornam-no atraente para uma variedade de necessidades de mobilidade.</li>
+            <li>Manutenção e economia de combustível tornam o Corolla uma opção econômica para viagens.</li>
+          </ul>
+        </>
+      ),
+      technicalData: 'Dados técnicos do Toyota Corolla',
+      dailyRentPrice: generateRandomPrice(),
+    },
+    {
+      name: 'Audi A4',
+      description: 'Descrição do Audi A4',
+      technicalData: 'Dados técnicos do Audi A4',
+      dailyRentPrice: generateRandomPrice(),
+    },
+    {
+      name: 'Mercedes-Benz C-Class',
+      description: 'Descrição do Mercedes-Benz C-Class',
+      technicalData: 'Dados técnicos do Mercedes-Benz C-Class',
+      dailyRentPrice: generateRandomPrice(),
+    },
+    {
+      name: 'BMW 3 Series',
+      description: 'Descrição do BMW 3 Series',
+      technicalData: 'Dados técnicos do BMW 3 Series',
+      dailyRentPrice: generateRandomPrice(),
+    },
+    {
+      name: 'Lexus ES',
+      description: 'Descrição do Lexus ES',
+      technicalData: 'Dados técnicos do Lexus ES',
+      dailyRentPrice: generateRandomPrice(),
+    },
   ];
 
   const handleOpenModal = (car: Car) => {
