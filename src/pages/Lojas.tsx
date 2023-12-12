@@ -1,4 +1,3 @@
-<<<<<<< HEAD
   import React, { useState } from 'react';
   import {
     IonButtons,
@@ -18,35 +17,9 @@
     IonRow,
     IonCol,
   } from '@ionic/react';
-  import { useParams } from 'react-router';
+  import { useHistory, useParams } from 'react-router';
   import ExploreContainer from '../components/ExploreContainer';
   import './Lojas.css';
-  import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
-
-=======
-import React, { useState } from 'react';
-import {
-  IonButtons,
-  IonContent,
-  IonHeader,
-  IonMenuButton,
-  IonPage,
-  IonTitle,
-  IonToolbar,
-  IonButton,
-  IonModal,
-  IonList,
-  IonItem,
-  IonLabel,
-  IonImg,
-  IonGrid,
-  IonRow,
-  IonCol,
-} from '@ionic/react';
-import { useHistory, useParams } from 'react-router-dom';  // Importe o useHistory
-import ExploreContainer from '../components/ExploreContainer';
-import './Lojas.css';
->>>>>>> ee2fde2225ea1f84ce31e2d02631bee25d695ab5
 
   interface Store {
     name: string;
@@ -55,10 +28,6 @@ import './Lojas.css';
     image: string;
   }
 
-  // ... (imports omitidos para brevidade)
-
-
-  
   const Lojas: React.FC = () => {
     const { name } = useParams<{ name: string }>();
     const [showModal, setShowModal] = useState(false);
