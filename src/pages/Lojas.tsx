@@ -20,6 +20,8 @@
   import { useParams } from 'react-router';
   import ExploreContainer from '../components/ExploreContainer';
   import './Lojas.css';
+  import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
+
 
   interface Store {
     name: string;
@@ -30,6 +32,8 @@
 
   // ... (imports omitidos para brevidade)
 
+
+  
   const Lojas: React.FC = () => {
     const { name } = useParams<{ name: string }>();
     const [showModal, setShowModal] = useState(false);
@@ -108,6 +112,7 @@
           </IonList>
 
           {/* Modal */}
+          
           {selectedStore && (
             <IonModal isOpen={showModal} onDidDismiss={handleCloseModal}>
               <IonContent>

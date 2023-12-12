@@ -44,6 +44,7 @@ const Frota: React.FC = () => {
       name: 'Toyota Corolla',
       description: (
         <>
+        <IonImg src="https://kong-proxy-intranet.toyota-europe.com/c1-images/resize/ccis/1280x1280/zip/pt/configurationtype/visual-for-grade-selector/product-token/ebadee5e-5ac7-4501-9b41-7786432cb0c1/grade/93e19bae-b1c0-4535-9917-e7021b6a763d/body/7b77d85b-8f26-4645-82ac-22154a7d6293/fallback/true/padding/50,50,50,50/image-quality/70/day-exterior-4.png" />
           <p>
             <strong>Design Exterior:</strong>
           </p>
@@ -100,6 +101,7 @@ const Frota: React.FC = () => {
       name: 'Audi A4',
       description: (
         <>
+        <IonImg src='https://cf-cdn-v5.audi.at/media/GalleryThumbnails_Slider_Image_Component/72903-761229-slider-470189/dh-1460-a9ad28/d4657f1a/1685948687/1920x1080-aa4-l-191004-oe.jpg'/>
           <p>
             <strong>Design Exterior:</strong>
           </p>
@@ -156,6 +158,7 @@ const Frota: React.FC = () => {
       name: 'Mercedes-Benz C-Class',
       description: (
         <>
+        <IonImg src='https://www.mercedes-benz.pt/content/dam/hq/passengercars/cars/c-class/c-class-saloon-w206-pi/modeloverview/06-2022/images/mercedes-benz-c-class-w206-modeloverview-696x392-06-2022.png'/>
           <p>
             <strong>Design Exterior:</strong>
           </p>
@@ -212,6 +215,7 @@ const Frota: React.FC = () => {
       name: 'BMW 3 Series',
       description: (
         <>
+        <IonImg src='https://media.ed.edmunds-media.com/bmw/3-series/2023/oem/2023_bmw_3-series_sedan_330i-xdrive_fq_oem_1_1600.jpg'/>
           <p>
             <strong>Design Exterior:</strong>
           </p>
@@ -309,9 +313,6 @@ const Frota: React.FC = () => {
           <IonModal isOpen={showModal} onDidDismiss={handleCloseModal}>
             <IonContent>
               <IonTitle>{selectedCar.name}</IonTitle>
-
-              {/* Adicione aqui a imagem ilustrativa do carro */}
-              <IonImg src="caminho/para/imagem.jpg" />
 
               {/* Informações do carro */}
               <IonGrid>
