@@ -1,3 +1,4 @@
+<<<<<<< HEAD
   import React, { useState } from 'react';
   import {
     IonButtons,
@@ -22,6 +23,30 @@
   import './Lojas.css';
   import { GoogleMap, Marker, LoadScript } from '@react-google-maps/api';
 
+=======
+import React, { useState } from 'react';
+import {
+  IonButtons,
+  IonContent,
+  IonHeader,
+  IonMenuButton,
+  IonPage,
+  IonTitle,
+  IonToolbar,
+  IonButton,
+  IonModal,
+  IonList,
+  IonItem,
+  IonLabel,
+  IonImg,
+  IonGrid,
+  IonRow,
+  IonCol,
+} from '@ionic/react';
+import { useHistory, useParams } from 'react-router-dom';  // Importe o useHistory
+import ExploreContainer from '../components/ExploreContainer';
+import './Lojas.css';
+>>>>>>> ee2fde2225ea1f84ce31e2d02631bee25d695ab5
 
   interface Store {
     name: string;
@@ -38,6 +63,7 @@
     const { name } = useParams<{ name: string }>();
     const [showModal, setShowModal] = useState(false);
     const [selectedStore, setSelectedStore] = useState<Store | null>(null);
+    const history = useHistory();
     
 
     const stores: Store[] = [
@@ -83,6 +109,10 @@
       setSelectedStore(null);
     };
 
+    const navigateToFrota = () => {
+      history.push('/frota');
+    };
+
     return (
       <IonPage>
         <IonHeader>
@@ -103,13 +133,15 @@
           <ExploreContainer name={name} />
 
           <IonList>
-            {stores.map((store, index) => (
-              <IonItem key={index}>
-                <IonLabel>{store.name}</IonLabel>
-                <IonButton onClick={() => handleOpenModal(store)}>Mais informações</IonButton>
-              </IonItem>
-            ))}
-          </IonList>
+          {stores.map((store, index) => (
+            <IonItem key={index}>
+              <IonLabel>{store.name}</IonLabel>
+              <IonButton onClick={() => handleOpenModal(store)}>Mais informações</IonButton>
+              <IonButton onClick={navigateToFrota}>Ver Frota</IonButton>
+            </IonItem>
+          ))}
+        </IonList>
+
 
           {/* Modal */}
           
@@ -138,9 +170,8 @@
 
                  {/* Botão para fechar a modal */}
                  <IonButton onClick={handleCloseModal}>Fechar</IonButton>
-                <a href="./Frota/" target="_blank">
-                <IonButton> Frota </IonButton>
-                </a>
+                
+
               </IonContent>
             </IonModal>
           )}
