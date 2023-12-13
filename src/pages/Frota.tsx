@@ -104,7 +104,7 @@ const Frota: React.FC = () => {
     name: '2023 Honda Civic Type R',
     description: (
       <>
-      <IonImg src="" />
+      <IonImg src="https://paultan.org/image/2023/09/2023_Honda_Civic_TypeR_Launch_Malaysia-2.jpg" />
         <p>
           <strong>Design Exterior:</strong>
         </p>
