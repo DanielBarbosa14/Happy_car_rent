@@ -33,13 +33,16 @@ const generateRandomPrice = () => {
   return `€${randomPrice}`;
 };
 
+const categories = ['Compact', 'Sedan', 'SUV', 'Luxury'];
+
 const Frota: React.FC = () => {
   const { name } = useParams<{ name: string }>();
   const [showModal, setShowModal] = useState(false);
   const [selectedCar, setSelectedCar] = useState<Car | null>(null);
 
-  const cars: Car[] = [
-    {
+  const carsByCategory = {
+    Compact: [
+      {
       name: 'Toyota Corolla',
       description: (
         <>
@@ -95,7 +98,68 @@ const Frota: React.FC = () => {
     </>
   ) as React.ReactNode,
   dailyRentPrice: generateRandomPrice(),
+      },
+
+  {
+    name: '2023 Honda Civic Type R',
+    description: (
+      <>
+      <IonImg src="" />
+        <p>
+          <strong>Design Exterior:</strong>
+        </p>
+        <ul>
+          <li>O 2023 Honda Civic Type R possui um design moderno e aerodinâmico que combina elegância e estilo.</li>
+          <li>Linhas fluidas e detalhes cuidadosamente esculpidos contribuem para sua estética atraente.</li>
+          <li>Disponível em uma variedade de cores vibrantes e opções de acabamento.</li>
+        </ul>
+
+        <p>
+          <strong>Interior Espaçoso e Confortável:</strong>
+        </p>
+        <ul>
+          <li>O interior do 2023 Honda Civic Type R é espaçoso, oferecendo amplo espaço para passageiros e bagagem.</li>
+          <li>Materiais de alta qualidade e acabamentos refinados proporcionam um ambiente confortável.</li>
+          <li>Assentos ergonomicamente projetados garantem conforto durante viagens longas.</li>
+        </ul>
+
+        <p>
+          <strong>Tecnologia Avançada:</strong>
+        </p>
+        <ul>
+          <li>Equipado com um sistema de infoentretenimento moderno, incluindo tela sensível ao toque.</li>
+          <li>Recursos de conectividade, como Bluetooth e integração com smartphones, proporcionam uma experiência de condução conectada.</li>
+          <li>Sistemas avançados de assistência ao condutor, como alerta de colisão e controle de cruzeiro adaptativo.</li>
+        </ul>
+
+        <p>
+          <strong>Opção Popular de Aluguer:</strong>
+        </p>
+        <ul>
+          <li>Reconhecido por sua confiabilidade, o 2023 Honda Civic Type R é uma escolha popular para aluguer de veículos.</li>
+          <li>Custos acessíveis de aluguer tornam-no atraente para uma variedade de necessidades de mobilidade.</li>
+          <li>Manutenção e economia de combustível tornam o Corolla uma opção econômica para viagens.</li>
+        </ul>
+      </>
+    ),
+    technicalData: (
+  <>
+    <p>
+      <strong>Dados Técnicos:</strong>
+    </p>
+    <ul>
+      <li>Motor: 1.8L, 4 cilindros</li>
+      <li>Potência: 132 hp @ 6,000 rpm</li>
+      <li>Transmissão: Automática CVT</li>
+      <li>Consumo de Combustível: 29 mpg (cidade) / 37 mpg (estrada)</li>
+    </ul>
+  </>
+) as React.ReactNode,
+dailyRentPrice: generateRandomPrice(),
+
     },
+  ],
+  Sedan: [
     {
       name: 'Audi A4',
       description: (
@@ -153,6 +217,8 @@ const Frota: React.FC = () => {
       ) as React.ReactNode,
       dailyRentPrice: generateRandomPrice(),
     },
+  ],
+  SUV: [  
     {
       name: 'Mercedes-Benz C-Class',
       description: (
@@ -210,6 +276,8 @@ const Frota: React.FC = () => {
       ) as React.ReactNode,
       dailyRentPrice: generateRandomPrice() + ' €'
     },
+  ],
+  Luxury: [
     {
       name: 'BMW 3 Series',
       description: (
@@ -267,45 +335,52 @@ const Frota: React.FC = () => {
       ) as React.ReactNode,
       dailyRentPrice: generateRandomPrice() + ' €',
     },
-  ];
+  ],
+};
 
-  const handleOpenModal = (car: Car) => {
-    setSelectedCar(car);
-    setShowModal(true);
-  };
+const handleOpenModal = (car: Car) => {
+  setSelectedCar(car);
+  setShowModal(true);
+};
 
-  const handleCloseModal = () => {
-    setShowModal(false);
-    setSelectedCar(null);
-  };
+const handleCloseModal = () => {
+  setShowModal(false);
+  setSelectedCar(null);
+};
 
-  return (
-    <IonPage>
-      <IonHeader>
+return (
+  <IonPage>
+    <IonHeader>
+      <IonToolbar>
+        <IonButtons slot="start">
+          <IonMenuButton />
+        </IonButtons>
+        <IonTitle>Frota</IonTitle>
+      </IonToolbar>
+    </IonHeader>
+
+    <IonContent fullscreen>
+      <IonHeader collapse="condense">
         <IonToolbar>
-          <IonButtons slot="start">
-            <IonMenuButton />
-          </IonButtons>
-          <IonTitle>Frota</IonTitle>
+          <IonTitle size="large">{name}</IonTitle>
         </IonToolbar>
       </IonHeader>
+      <ExploreContainer name={name} />
 
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">{name}</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer name={name} />
-
-        <IonList>
-          {cars.map((car, index) => (
-            <IonItem key={index}>
-              <IonLabel>{car.name}</IonLabel>
-              <IonButton onClick={() => handleOpenModal(car)}>Mais informações</IonButton>
-            </IonItem>
-          ))}
-        </IonList>
+      {/* Exibição dos Carros (Detalhes e Botões) */}
+      {Object.entries(carsByCategory).map(([category, carList]) => (
+  <IonList key={category}>
+    <IonItem>
+      <IonLabel>{category}</IonLabel>
+    </IonItem>
+    {carList.map((car, index) => (
+      <IonItem key={index}>
+        <IonLabel>{car.name}</IonLabel>
+        <IonButton onClick={() => handleOpenModal(car)}>Mais informações</IonButton>
+      </IonItem>
+    ))}
+  </IonList>
+))}
 
         {/* Modal */}
         {selectedCar && (
@@ -329,7 +404,7 @@ const Frota: React.FC = () => {
                   </IonCol>
                 </IonRow>
               </IonGrid>
-
+              {/* Botão de fechar modal */}
               <IonButton onClick={handleCloseModal}>Fechar</IonButton>
             </IonContent>
           </IonModal>
