@@ -162,7 +162,7 @@ dailyRentPrice: generateRandomPrice(),
       name: '2024 Acura Integra',
       description: (
         <>
-        <IonImg src="https://paultan.org/image/2023/09/2023_Honda_Civic_TypeR_Launch_Malaysia-2.jpg" />
+        <IonImg src="https://www.motortrend.com/uploads/2023/04/2024-Acura-Integra-Type-S-21.jpg" />
           <p>
             <strong>Design Exterior:</strong>
           </p>
@@ -221,7 +221,7 @@ dailyRentPrice: generateRandomPrice(),
         name: '2024 Honda Civic',
         description: (
           <>
-          <IonImg src="https://paultan.org/image/2023/09/2023_Honda_Civic_TypeR_Launch_Malaysia-2.jpg" />
+          <IonImg src="https://vehicle-images.dealerinspire.com/3066-11001513/19XFL2G85RE005045/cae208ebd38e028c6db3e3e3f8de3961.jpg" />
             <p>
               <strong>Design Exterior:</strong>
             </p>
@@ -340,7 +340,7 @@ dailyRentPrice: generateRandomPrice(),
       name: 'Chevrolet Onix Plus',
       description: (
         <>
-        <IonImg src='https://cf-cdn-v5.audi.at/media/GalleryThumbnails_Slider_Image_Component/72903-761229-slider-470189/dh-1460-a9ad28/d4657f1a/1685948687/1920x1080-aa4-l-191004-oe.jpg'/>
+        <IonImg src='https://t.ctcdn.com.br/ttMiIkufJ9iruWRsKnvSbCajM6k=/1200x675/smart/i624421.jpeg'/>
           <p>
             <strong>Design Exterior:</strong>
           </p>
@@ -398,7 +398,7 @@ dailyRentPrice: generateRandomPrice(),
       name: 'Honda City',
       description: (
         <>
-        <IonImg src='https://cf-cdn-v5.audi.at/media/GalleryThumbnails_Slider_Image_Component/72903-761229-slider-470189/dh-1460-a9ad28/d4657f1a/1685948687/1920x1080-aa4-l-191004-oe.jpg'/>
+        <IonImg src='https://upload.wikimedia.org/wikipedia/commons/1/1f/0_Honda_City_%287th_generation%29_sedan.jpg'/>
           <p>
             <strong>Design Exterior:</strong>
           </p>
@@ -456,7 +456,7 @@ dailyRentPrice: generateRandomPrice(),
       name: 'Fiat Grand Siena',
       description: (
         <>
-        <IonImg src='https://cf-cdn-v5.audi.at/media/GalleryThumbnails_Slider_Image_Component/72903-761229-slider-470189/dh-1460-a9ad28/d4657f1a/1685948687/1920x1080-aa4-l-191004-oe.jpg'/>
+        <IonImg src='https://uploads.vrum.com.br/2022/08/74438a8a-fiat-grand-siena-modelo-2020-com-kit-gnv-vermelho-de-frente-no-asfalto.jpg'/>
           <p>
             <strong>Design Exterior:</strong>
           </p>
@@ -575,7 +575,7 @@ dailyRentPrice: generateRandomPrice(),
 
       description: (
         <>
-        <IonImg src='https://www.mercedes-benz.pt/content/dam/hq/passengercars/cars/c-class/c-class-saloon-w206-pi/modeloverview/06-2022/images/mercedes-benz-c-class-w206-modeloverview-696x392-06-2022.png'/>
+        <IonImg src='https://media.ed.edmunds-media.com/mazda/cx-5/2024/oem/2024_mazda_cx-5_4dr-suv_25-carbon-turbo_fq_oem_1_1600.jpg'/>
           <p>
             <strong>Design Exterior:</strong>
           </p>
@@ -634,7 +634,7 @@ dailyRentPrice: generateRandomPrice(),
 
       description: (
         <>
-        <IonImg src='https://www.mercedes-benz.pt/content/dam/hq/passengercars/cars/c-class/c-class-saloon-w206-pi/modeloverview/06-2022/images/mercedes-benz-c-class-w206-modeloverview-696x392-06-2022.png'/>
+        <IonImg src='https://www.motortrend.com/uploads/2023/08/2024-Hyundai-Tucson-Limited-AWD-front-view-26.jpg'/>
           <p>
             <strong>Design Exterior:</strong>
           </p>
@@ -693,7 +693,7 @@ dailyRentPrice: generateRandomPrice(),
 
       description: (
         <>
-        <IonImg src='https://www.mercedes-benz.pt/content/dam/hq/passengercars/cars/c-class/c-class-saloon-w206-pi/modeloverview/06-2022/images/mercedes-benz-c-class-w206-modeloverview-696x392-06-2022.png'/>
+        <IonImg src='https://www.razaoautomovel.com/wp-content/uploads/2022/03/2023-Maserati-Grecale-Trofeo-1-Copy-1440x960.jpg'/>
           <p>
             <strong>Design Exterior:</strong>
           </p>
@@ -810,7 +810,7 @@ dailyRentPrice: generateRandomPrice(),
       name: '2024 Cadillac CT4',
       description: (
         <>
-        <IonImg src='https://media.ed.edmunds-media.com/bmw/3-series/2023/oem/2023_bmw_3-series_sedan_330i-xdrive_fq_oem_1_1600.jpg'/>
+        <IonImg src='https://www.motortrend.com/uploads/2023/05/2024-Cadillac-CT4-V-Blackwing-front-view-4.jpg'/>
           <p>
             <strong>Design Exterior:</strong>
           </p>
@@ -868,7 +868,7 @@ dailyRentPrice: generateRandomPrice(),
       name: '2023 Tesla Model 3',
       description: (
         <>
-        <IonImg src='https://media.ed.edmunds-media.com/bmw/3-series/2023/oem/2023_bmw_3-series_sedan_330i-xdrive_fq_oem_1_1600.jpg'/>
+        <IonImg src='https://media.ed.edmunds-media.com/tesla/model-3/2022/oem/2022_tesla_model-3_sedan_performance_fq_oem_1_1600.jpg'/>
           <p>
             <strong>Design Exterior:</strong>
           </p>
@@ -925,7 +925,7 @@ dailyRentPrice: generateRandomPrice(),
       name: '2023 Genesis G70',
       description: (
         <>
-        <IonImg src='https://media.ed.edmunds-media.com/bmw/3-series/2023/oem/2023_bmw_3-series_sedan_330i-xdrive_fq_oem_1_1600.jpg'/>
+        <IonImg src='https://images.ctfassets.net/c9t6u0qhbv9e/1Xg3noAJxSQCN0JjgtbYHI/562a95e939a4cbe13cf54bbcc77e67ed/2023_Genesis_G70_Review_Thumbnail.jpg'/>
           <p>
             <strong>Design Exterior:</strong>
           </p>
