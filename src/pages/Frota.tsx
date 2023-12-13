@@ -51,36 +51,36 @@ const Frota: React.FC = () => {
             <strong>Design Exterior:</strong>
           </p>
           <ul>
-            <li>O Toyota Corolla possui um design moderno e aerodinâmico que combina elegância e estilo.</li>
-            <li>Linhas fluidas e detalhes cuidadosamente esculpidos contribuem para sua estética atraente.</li>
-            <li>Disponível em uma variedade de cores vibrantes e opções de acabamento.</li>
+            <li>Estilo clássico e atemporal, com ênfase na eficiência aerodinâmica.</li>
+            <li>Linhas elegantes e detalhes modernos.</li>
+            <li>Possíveis opções de pintura e acabamento.</li>
           </ul>
 
           <p>
             <strong>Interior Espaçoso e Confortável:</strong>
           </p>
           <ul>
-            <li>O interior do Corolla é espaçoso, oferecendo amplo espaço para passageiros e bagagem.</li>
-            <li>Materiais de alta qualidade e acabamentos refinados proporcionam um ambiente confortável.</li>
-            <li>Assentos ergonomicamente projetados garantem conforto durante viagens longas.</li>
+            <li>Interior projetado para maximizar o espaço e o conforto.</li>
+            <li>Materiais de qualidade e assentos ergonômicos.</li>
+            <li>Configuração prática e funcional.</li>
           </ul>
 
           <p>
             <strong>Tecnologia Avançada:</strong>
           </p>
           <ul>
-            <li>Equipado com um sistema de infoentretenimento moderno, incluindo tela sensível ao toque.</li>
-            <li>Recursos de conectividade, como Bluetooth e integração com smartphones, proporcionam uma experiência de condução conectada.</li>
-            <li>Sistemas avançados de assistência ao condutor, como alerta de colisão e controle de cruzeiro adaptativo.</li>
+            <li>Sistema de infoentretenimento intuitivo.</li>
+            <li>Conectividade com smartphones através de recursos como Apple CarPlay e Android Auto.</li>
+            <li>Recursos de segurança avançados, como assistência de frenagem de emergência.</li>
           </ul>
 
           <p>
             <strong>Opção Popular de Aluguer:</strong>
           </p>
           <ul>
-            <li>Reconhecido por sua confiabilidade, o Corolla é uma escolha popular para aluguer de veículos.</li>
-            <li>Custos acessíveis de aluguer tornam-no atraente para uma variedade de necessidades de mobilidade.</li>
-            <li>Manutenção e economia de combustível tornam o Corolla uma opção econômica para viagens.</li>
+            <li>Pode ser uma escolha popular para aluguer, oferecendo economia e confiabilidade.</li>
+            <li>Opções de pacotes de aluguer acessíveis.</li>
+            <li>Manutenção inclusa e outras vantagens.</li>
           </ul>
         </>
       ),
@@ -90,10 +90,9 @@ const Frota: React.FC = () => {
         <strong>Dados Técnicos:</strong>
       </p>
       <ul>
-        <li>Motor: 1.8L, 4 cilindros</li>
-        <li>Potência: 132 hp @ 6,000 rpm</li>
-        <li>Transmissão: Automática CVT</li>
-        <li>Consumo de Combustível: 29 mpg (cidade) / 37 mpg (estrada)</li>
+        <li>Motores eficientes para economia de combustível.</li>
+        <li>Opções de transmissão manual ou automática.</li>
+        <li>Desempenho equilibrado para atender às necessidades do dia a dia.</li>
       </ul>
     </>
   ) as React.ReactNode,
@@ -109,36 +108,36 @@ const Frota: React.FC = () => {
           <strong>Design Exterior:</strong>
         </p>
         <ul>
-          <li>O 2023 Honda Civic Type R possui um design moderno e aerodinâmico que combina elegância e estilo.</li>
-          <li>Linhas fluidas e detalhes cuidadosamente esculpidos contribuem para sua estética atraente.</li>
-          <li>Disponível em uma variedade de cores vibrantes e opções de acabamento.</li>
+          <li>Estilo arrojado e esportivo, com elementos distintivos do Type R.</li>
+          <li>Acentos agressivos, grade frontal distinta e detalhes aerodinâmicos.</li>
+          <li>Possíveis opções de pintura e acabamentos esportivos.</li>
         </ul>
 
         <p>
           <strong>Interior Espaçoso e Confortável:</strong>
         </p>
         <ul>
-          <li>O interior do 2023 Honda Civic Type R é espaçoso, oferecendo amplo espaço para passageiros e bagagem.</li>
-          <li>Materiais de alta qualidade e acabamentos refinados proporcionam um ambiente confortável.</li>
-          <li>Assentos ergonomicamente projetados garantem conforto durante viagens longas.</li>
+          <li>Interior mais minimalista, com foco em performance.</li>
+          <li>Assentos esportivos de apoio para proporcionar conforto durante a condução dinâmica.</li>
+          <li>Espaço adequado para passageiros, mantendo a essência esportiva.</li>
         </ul>
 
         <p>
           <strong>Tecnologia Avançada:</strong>
         </p>
         <ul>
-          <li>Equipado com um sistema de infoentretenimento moderno, incluindo tela sensível ao toque.</li>
-          <li>Recursos de conectividade, como Bluetooth e integração com smartphones, proporcionam uma experiência de condução conectada.</li>
-          <li>Sistemas avançados de assistência ao condutor, como alerta de colisão e controle de cruzeiro adaptativo.</li>
+          <li>Sistema de infoentretenimento com foco na conectividade.</li>
+          <li>Recursos de assistência ao motorista, como alerta de colisão e sistema de frenagem automática.</li>
+          <li>Cluster de instrumentos digital personalizável.</li>
         </ul>
 
         <p>
           <strong>Opção Popular de Aluguer:</strong>
         </p>
         <ul>
-          <li>Reconhecido por sua confiabilidade, o 2023 Honda Civic Type R é uma escolha popular para aluguer de veículos.</li>
-          <li>Custos acessíveis de aluguer tornam-no atraente para uma variedade de necessidades de mobilidade.</li>
-          <li>Manutenção e economia de combustível tornam o Corolla uma opção econômica para viagens.</li>
+          <li>Pode ser uma opção popular para entusiastas de carros esportivos.</li>
+          <li>Pacotes de aluguer acessíveis e vantajosos.</li>
+          <li>Manutenção inclusa para maior conveniência.</li>
         </ul>
       </>
     ),
@@ -148,10 +147,9 @@ const Frota: React.FC = () => {
       <strong>Dados Técnicos:</strong>
     </p>
     <ul>
-      <li>Motor: 1.8L, 4 cilindros</li>
-      <li>Potência: 132 hp @ 6,000 rpm</li>
-      <li>Transmissão: Automática CVT</li>
-      <li>Consumo de Combustível: 29 mpg (cidade) / 37 mpg (estrada)</li>
+      <li>Motor de alto desempenho para uma experiência esportiva.</li>
+      <li>Transmissão manual para maior controle.</li>
+      <li>Suspensão ajustada para melhor manuseio.</li>
     </ul>
   </>
 ) as React.ReactNode,
@@ -167,36 +165,36 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Design Exterior:</strong>
           </p>
           <ul>
-            <li>O 2024 Acura Integra possui um design moderno e aerodinâmico que combina elegância e estilo.</li>
-            <li>Linhas fluidas e detalhes cuidadosamente esculpidos contribuem para sua estética atraente.</li>
-            <li>Disponível em uma variedade de cores vibrantes e opções de acabamento.</li>
+            <li>Estilo inspirado nas linhas modernas e elegantes da Acura.</li>
+            <li>Detalhes aerodinâmicos e distintivos.</li>
+            <li>Possíveis opções de pintura e acabamento premium.</li>
           </ul>
   
           <p>
             <strong>Interior Espaçoso e Confortável:</strong>
           </p>
           <ul>
-            <li>O interior do 2024 Acura Integra é espaçoso, oferecendo amplo espaço para passageiros e bagagem.</li>
-            <li>Materiais de alta qualidade e acabamentos refinados proporcionam um ambiente confortável.</li>
-            <li>Assentos ergonomicamente projetados garantem conforto durante viagens longas.</li>
+            <li>Interior projetado para oferecer conforto e espaço.</li>
+            <li>Materiais de alta qualidade e assentos ergonômicos.</li>
+            <li>Configuração interna prática e funcional.</li>
           </ul>
   
           <p>
             <strong>Tecnologia Avançada:</strong>
           </p>
           <ul>
-            <li>Equipado com um sistema de infoentretenimento moderno, incluindo tela sensível ao toque.</li>
-            <li>Recursos de conectividade, como Bluetooth e integração com smartphones, proporcionam uma experiência de condução conectada.</li>
-            <li>Sistemas avançados de assistência ao condutor, como alerta de colisão e controle de cruzeiro adaptativo.</li>
+            <li>Sistema de infoentretenimento de última geração.</li>
+            <li>Conectividade avançada, incluindo integração com smartphones.</li>
+            <li>Recursos de assistência ao motorista, como frenagem de emergência.</li>
           </ul>
   
           <p>
             <strong>Opção Popular de Aluguer:</strong>
           </p>
           <ul>
-            <li>Reconhecido por sua confiabilidade, o 2024 Acura Integra é uma escolha popular para aluguer de veículos.</li>
-            <li>Custos acessíveis de aluguer tornam-no atraente para uma variedade de necessidades de mobilidade.</li>
-            <li>Manutenção e economia de combustível tornam o Corolla uma opção econômica para viagens.</li>
+            <li>Pode ser uma escolha popular para aluguer, oferecendo uma combinação de desempenho e praticidade.</li>
+            <li>Opções de pacotes de aluguer acessíveis.</li>
+            <li>Manutenção inclusa e outras vantagens.</li>
           </ul>
         </>
       ),
@@ -206,10 +204,9 @@ dailyRentPrice: generateRandomPrice(),
         <strong>Dados Técnicos:</strong>
       </p>
       <ul>
-        <li>Motor: 1.8L, 4 cilindros</li>
-        <li>Potência: 132 hp @ 6,000 rpm</li>
-        <li>Transmissão: Automática CVT</li>
-        <li>Consumo de Combustível: 29 mpg (cidade) / 37 mpg (estrada)</li>
+        <li>Motor eficiente e potente para desempenho equilibrado.</li>
+        <li>Opções de transmissão automática ou manual.</li>
+        <li>Tecnologias voltadas para uma condução dinâmica.</li>
       </ul>
     </>
   ) as React.ReactNode,
@@ -226,27 +223,31 @@ dailyRentPrice: generateRandomPrice(),
               <strong>Design Exterior:</strong>
             </p>
             <ul>
-              <li>O 2024 Honda Civic possui um design moderno e aerodinâmico que combina elegância e estilo.</li>
-              <li>Linhas fluidas e detalhes cuidadosamente esculpidos contribuem para sua estética atraente.</li>
-              <li>Disponível em uma variedade de cores vibrantes e opções de acabamento.</li>
+              <li>Estilo moderno e inovador que reflete a evolução do design Honda.</li>
+              <li>Linhas aerodinâmicas e detalhes distintos para uma presença visual marcante.</li>
             </ul>
     
             <p>
               <strong>Interior Espaçoso e Confortável:</strong>
             </p>
             <ul>
-              <li>O interior do 2024 Honda Civic é espaçoso, oferecendo amplo espaço para passageiros e bagagem.</li>
-              <li>Materiais de alta qualidade e acabamentos refinados proporcionam um ambiente confortável.</li>
-              <li>Assentos ergonomicamente projetados garantem conforto durante viagens longas.</li>
+              <li>Ambiente interno projetado para oferecer amplo espaço e conforto aos ocupantes.</li>
+              <li>Materiais de alta qualidade e acabamentos cuidadosamente escolhidos para aprimorar a experiência do condutor e passageiros.</li>
             </ul>
     
             <p>
               <strong>Tecnologia Avançada:</strong>
             </p>
             <ul>
-              <li>Equipado com um sistema de infoentretenimento moderno, incluindo tela sensível ao toque.</li>
-              <li>Recursos de conectividade, como Bluetooth e integração com smartphones, proporcionam uma experiência de condução conectada.</li>
-              <li>Sistemas avançados de assistência ao condutor, como alerta de colisão e controle de cruzeiro adaptativo.</li>
+              <li>Sistema de infoentretenimento com tela tátil de última geração, proporcionando uma experiência interativa e intuitiva.</li>
+              <li>Conectividade aprimorada com suporte para Apple CarPlay e Android Auto, mantendo os ocupantes conectados.</li>
+              <li>Painel de instrumentos digital de alta resolução, fornecendo informações essenciais ao motorista de forma clara e acessível.</li>
+              <li>Conjunto abrangente de recursos de segurança ativa, como sistema de frenagem automática de emergência, assistência de permanência na faixa e controle de cruzeiro adaptativo.</li>
+              <li>Sistema de iluminação totalmente em LED, oferecendo visibilidade superior e um toque moderno ao design exterior.</li>
+              <li>Controles e interruptores ergonomicamente posicionados para uma experiência de condução intuitiva e sem distrações.</li>
+              <li>Versatilidade no espaço de carga para atender às necessidades práticas dos usuários.</li>
+              <li>Foco contínuo na eficiência de combustível, alinhado com as demandas crescentes por sustentabilidade.</li>
+              <li>Possíveis opções de personalização para permitir que os motoristas escolham recursos e estilos que atendam às suas preferências individuais.</li>
             </ul>
     
             <p>
@@ -255,7 +256,7 @@ dailyRentPrice: generateRandomPrice(),
             <ul>
               <li>Reconhecido por sua confiabilidade, o 2024 Honda Civic é uma escolha popular para aluguer de veículos.</li>
               <li>Custos acessíveis de aluguer tornam-no atraente para uma variedade de necessidades de mobilidade.</li>
-              <li>Manutenção e economia de combustível tornam o Corolla uma opção econômica para viagens.</li>
+              <li>Manutenção e economia de combustível tornam o Honda Civic uma opção econômica para viagens.</li>
             </ul>
           </>
         ),
@@ -265,10 +266,10 @@ dailyRentPrice: generateRandomPrice(),
           <strong>Dados Técnicos:</strong>
         </p>
         <ul>
-          <li>Motor: 1.8L, 4 cilindros</li>
-          <li>Potência: 132 hp @ 6,000 rpm</li>
-          <li>Transmissão: Automática CVT</li>
-          <li>Consumo de Combustível: 29 mpg (cidade) / 37 mpg (estrada)</li>
+          <li>Motor: 2.0L, 4 cilindros</li>
+          <li>Potência: 143 hp @ 6,000 rpm</li>
+          <li>Transmissão: Automática</li>
+          <li>Consumo de Combustível: 18.3L/100 (cidade) / 15.9L/100 (estrada)</li>
         </ul>
       </>
     ) as React.ReactNode,
@@ -287,27 +288,29 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Design Exterior:</strong>
           </p>
           <ul>
-            <li>O Audi A4 apresenta um design sofisticado, combinando linhas elegantes e uma estética moderna.</li>
-            <li>Detalhes precisos e elementos aerodinâmicos contribuem para uma presença visual marcante.</li>
-            <li>Disponível em uma variedade de cores premium e opções de acabamento.</li>
+            <li>Linhas elegantes e contornos distintos que caracterizam o design da marca Audi.</li>
+            <li>Grade dianteira trapezoidal e elementos de iluminação LED para uma identidade visual forte.</li>
+            <li>Design aerodinâmico para otimizar a eficiência de combustível e melhorar o desempenho em altas velocidades.</li>
+            <li>Acabamentos refinados, detalhes cromados e jantes de liga leve para um toque de sofisticação.</li>
           </ul>
       
           <p>
             <strong>Interior Espaçoso e Confortável:</strong>
           </p>
           <ul>
-            <li>O interior do Audi A4 oferece um ambiente espaçoso, proporcionando conforto tanto para motorista quanto passageiros.</li>
-            <li>Os materiais de alta qualidade e o design refinado garantem uma experiência luxuosa.</li>
-            <li>Assentos ergonomicamente projetados oferecem suporte ideal durante viagens longas.</li>
+            <li>Acabamentos em couro, alumínio e materiais de alta qualidade para um interior luxuoso.</li>
+            <li>Design inteligente para oferecer amplo espaço para os ocupantes, tanto à frente quanto atrás.</li>
+            <li>Assentos projetados ergonomicamente para oferecer suporte e conforto durante viagens mais longas.</li>
           </ul>
       
           <p>
             <strong>Tecnologia Avançada:</strong>
           </p>
           <ul>
-            <li>Equipado com um sistema de infoentretenimento de última geração, incluindo uma interface intuitiva e recursos inovadores.</li>
-            <li>Conectividade aprimorada, como Bluetooth e integração perfeita com dispositivos móveis, proporcionando uma experiência de condução conectada.</li>
-            <li>Recursos avançados de assistência ao condutor, como controle de cruzeiro adaptativo e assistência de estacionamento automático.</li>
+            <li>Sistema de infoentretenimento com tela sensível ao toque, conectividade Bluetooth e navegação por satélite.</li>
+            <li>Painel de instrumentos digital personalizável para exibir informações essenciais de forma moderna e interativa.</li>
+            <li>Recursos avançados, como controle de cruzeiro adaptativo, assistência de faixa e frenagem automática de emergência.</li>
+            <li>Opções de sistemas de som premium para uma experiência de áudio de alta qualidade.</li>
           </ul>
       
           <p>
@@ -326,10 +329,11 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Dados Técnicos:</strong>
           </p>
           <ul>
-            <li>Motor: 1.8L, 4 cilindros</li>
-            <li>Potência: 132 hp @ 6,000 rpm</li>
-            <li>Transmissão: Automática CVT</li>
-            <li>Consumo de Combustível: 29 mpg (cidade) / 37 mpg (estrada)</li>
+            <li>Opções de motores a gasolina ou diesel, com diferentes níveis de potência.</li>
+            <li>Aceleração, velocidade máxima e eficiência de combustível dependendo da configuração do motor.</li>
+            <li>Opções de transmissão automática ou manual, dependendo da preferência e configuração.</li>
+            <li>Variantes com tração dianteira ou integral (Quattro) dependendo da configuração escolhida.</li>
+            <li>Sistemas avançados de segurança, como frenagem automática, assistência de estacionamento e monitoramento de ponto cego.</li>
           </ul>
         </>
       ) as React.ReactNode,
@@ -345,36 +349,35 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Design Exterior:</strong>
           </p>
           <ul>
-            <li>O Chevrolet Onix Plus apresenta um design sofisticado, combinando linhas elegantes e uma estética moderna.</li>
-            <li>Detalhes precisos e elementos aerodinâmicos contribuem para uma presença visual marcante.</li>
-            <li>Disponível em uma variedade de cores premium e opções de acabamento.</li>
+            <li>Linhas contemporâneas e design aerodinâmico que refletem a identidade moderna da Chevrolet.</li>
+            <li>Grade frontal atraente, faróis distintivos e detalhes cromados para um visual marcante.</li>
+            <li>Dimensões compactas para facilitar a condução urbana, sem comprometer a elegância.</li>
           </ul>
       
           <p>
             <strong>Interior Espaçoso e Confortável:</strong>
           </p>
           <ul>
-            <li>O interior do Chevrolet Onix Plus oferece um ambiente espaçoso, proporcionando conforto tanto para motorista quanto passageiros.</li>
-            <li>Os materiais de alta qualidade e o design refinado garantem uma experiência luxuosa.</li>
-            <li>Assentos ergonomicamente projetados oferecem suporte ideal durante viagens longas.</li>
+            <li>Interior projetado para otimizar o espaço, proporcionando conforto para motorista e passageiros.</li>
+            <li>Acabamentos premium, assentos confortáveis e detalhes cuidadosamente selecionados.</li>
           </ul>
       
           <p>
             <strong>Tecnologia Avançada:</strong>
           </p>
           <ul>
-            <li>Equipado com um sistema de infoentretenimento de última geração, incluindo uma interface intuitiva e recursos inovadores.</li>
-            <li>Conectividade aprimorada, como Bluetooth e integração perfeita com dispositivos móveis, proporcionando uma experiência de condução conectada.</li>
-            <li>Recursos avançados de assistência ao condutor, como controle de cruzeiro adaptativo e assistência de estacionamento automático.</li>
+            <li>Tela sensível ao toque para controle fácil e intuitivo.</li>
+            <li>Conectividade com smartphones através de Apple CarPlay e Android Auto.</li>
+            <li>Recursos de segurança avançados, como frenagem automática de emergência, alerta de colisão e assistência de permanência na faixa.</li>
+            <li>Opções de áudio premium, sistema de navegação integrado e conectividade Bluetooth.</li>
           </ul>
       
           <p>
             <strong>Opção de Aluguer Premium:</strong>
           </p>
           <ul>
-            <li>O Chevrolet Onix Plus é reconhecido como uma opção premium para aluguer de veículos, combinando desempenho e elegância.</li>
-            <li>Apesar do caráter premium, oferece uma opção atraente para diversas necessidades de mobilidade.</li>
-            <li>Com eficiência de combustível e manutenção de alto padrão, o Chevrolet Onix Plus proporciona uma experiência de condução premium acessível.</li>
+            <li>Oferta de pacote de aluguer premium, proporcionando benefícios adicionais aos clientes.</li>
+            <li>Possíveis vantagens incluem manutenção inclusa, assistência 24 horas e opções de troca de veículo durante o contrato de aluguer.</li>
           </ul>
         </>
       ),      
@@ -384,10 +387,9 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Dados Técnicos:</strong>
           </p>
           <ul>
-            <li>Motor: 1.8L, 4 cilindros</li>
-            <li>Potência: 132 hp @ 6,000 rpm</li>
-            <li>Transmissão: Automática CVT</li>
-            <li>Consumo de Combustível: 29 mpg (cidade) / 37 mpg (estrada)</li>
+            <li>Motores eficientes em termos de combustível, oferecendo uma combinação de desempenho e economia.</li>
+            <li>Opções de transmissão automática ou manual, dependendo da preferência e configuração.</li>
+            <li>Aceleração, velocidade máxima e eficiência de combustível adaptadas para atender às necessidades urbanas e rodoviárias.</li>
           </ul>
         </>
       ) as React.ReactNode,
@@ -403,36 +405,36 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Design Exterior:</strong>
           </p>
           <ul>
-            <li>O Honda City apresenta um design sofisticado, combinando linhas elegantes e uma estética moderna.</li>
-            <li>Detalhes precisos e elementos aerodinâmicos contribuem para uma presença visual marcante.</li>
-            <li>Disponível em uma variedade de cores premium e opções de acabamento.</li>
+            <li>Linhas modernas e design elegante que representam a estética característica da Honda.</li>
+            <li>Grade frontal distintiva, faróis afilados e detalhes aerodinâmicos.</li>
+            <li>Design compacto para manobras fáceis na cidade, sem comprometer a funcionalidade.</li>
           </ul>
       
           <p>
             <strong>Interior Espaçoso e Confortável:</strong>
           </p>
           <ul>
-            <li>O interior do Honda City oferece um ambiente espaçoso, proporcionando conforto tanto para motorista quanto passageiros.</li>
-            <li>Os materiais de alta qualidade e o design refinado garantem uma experiência luxuosa.</li>
-            <li>Assentos ergonomicamente projetados oferecem suporte ideal durante viagens longas.</li>
+            <li>Espaço interno otimizado para proporcionar conforto aos ocupantes.</li>
+            <li>Configuração inteligente para otimizar o espaço disponível.</li>
+            <li>Acabamentos premium, assentos ergonômicos e detalhes de alta qualidade.</li>
           </ul>
       
           <p>
             <strong>Tecnologia Avançada:</strong>
           </p>
           <ul>
-            <li>Equipado com um sistema de infoentretenimento de última geração, incluindo uma interface intuitiva e recursos inovadores.</li>
-            <li>Conectividade aprimorada, como Bluetooth e integração perfeita com dispositivos móveis, proporcionando uma experiência de condução conectada.</li>
-            <li>Recursos avançados de assistência ao condutor, como controle de cruzeiro adaptativo e assistência de estacionamento automático.</li>
+            <li>Tela sensível ao toque com funcionalidades modernas.</li>
+            <li>Conectividade com smartphones, como Apple CarPlay e Android Auto.</li>
+            <li>Recursos avançados de segurança, como frenagem automática de emergência, controle de cruzeiro adaptativo e alerta de colisão.</li>
+            <li>Climatização digital, opções de áudio premium e características tecnológicas para uma experiência de condução confortável.</li>
           </ul>
       
           <p>
             <strong>Opção de Aluguer Premium:</strong>
           </p>
           <ul>
-            <li>O Honda City é reconhecido como uma opção premium para aluguer de veículos, combinando desempenho e elegância.</li>
-            <li>Apesar do caráter premium, oferece uma opção atraente para diversas necessidades de mobilidade.</li>
-            <li>Com eficiência de combustível e manutenção de alto padrão, o Honda City proporciona uma experiência de condução premium acessível.</li>
+            <li>Possibilidade de pacote de aluguer premium, oferecendo benefícios adicionais para os clientes.</li>
+            <li>Benefícios podem incluir manutenção inclusa, assistência 24 horas e opções de troca de veículo durante o período de aluguer.</li>
           </ul>
         </>
       ),      
@@ -442,10 +444,9 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Dados Técnicos:</strong>
           </p>
           <ul>
-            <li>Motor: 1.8L, 4 cilindros</li>
-            <li>Potência: 132 hp @ 6,000 rpm</li>
-            <li>Transmissão: Automática CVT</li>
-            <li>Consumo de Combustível: 29 mpg (cidade) / 37 mpg (estrada)</li>
+            <li>Motores otimizados para desempenho e eficiência de combustível.</li>
+            <li>Opções de transmissão automática ou manual, dependendo da configuração escolhida.</li>
+            <li>Aceleração, velocidade máxima e eficiência de combustível adaptados às necessidades urbanas e rodoviárias.</li>
           </ul>
         </>
       ) as React.ReactNode,
@@ -461,36 +462,37 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Design Exterior:</strong>
           </p>
           <ul>
-            <li>O Fiat Grand Siena apresenta um design sofisticado, combinando linhas elegantes e uma estética moderna.</li>
-            <li>Detalhes precisos e elementos aerodinâmicos contribuem para uma presença visual marcante.</li>
-            <li>Disponível em uma variedade de cores premium e opções de acabamento.</li>
+            <li>Linhas modernas e design sólido que define a presença do Fiat Grand Siena.</li>
+            <li>Detalhes aerodinâmicos e estilizados para uma estética atraente.</li>
+            <li>Design compacto e funcional para facilitar a condução urbana e maximizar a eficiência de espaço.</li>
           </ul>
       
           <p>
             <strong>Interior Espaçoso e Confortável:</strong>
           </p>
           <ul>
-            <li>O interior do Fiat Grand Siena oferece um ambiente espaçoso, proporcionando conforto tanto para motorista quanto passageiros.</li>
-            <li>Os materiais de alta qualidade e o design refinado garantem uma experiência luxuosa.</li>
-            <li>Assentos ergonomicamente projetados oferecem suporte ideal durante viagens longas.</li>
+            <li>Interior otimizado para proporcionar espaço confortável aos ocupantes.</li>
+            <li>Configuração interna projetada para oferecer conforto e praticidade.</li>
+            <li>Acabamentos interiores cuidadosamente escolhidos para um ambiente agradável.</li>
+            <li>Assentos ergonomicamente projetados para suporte e conforto.</li>
           </ul>
       
           <p>
             <strong>Tecnologia Avançada:</strong>
           </p>
           <ul>
-            <li>Equipado com um sistema de infoentretenimento de última geração, incluindo uma interface intuitiva e recursos inovadores.</li>
-            <li>Conectividade aprimorada, como Bluetooth e integração perfeita com dispositivos móveis, proporcionando uma experiência de condução conectada.</li>
-            <li>Recursos avançados de assistência ao condutor, como controle de cruzeiro adaptativo e assistência de estacionamento automático.</li>
+            <li>Unidade central com recursos modernos, conectividade Bluetooth e opções de entretenimento.</li>
+            <li>Possíveis características, como controle de áudio no volante e integração com dispositivos móveis.</li>
+            <li>Recursos de segurança, como airbags, sistema de freios ABS e controle eletrônico de estabilidade.</li>
+            <li>Sistema de ar-condicionado eficiente, controles intuitivos e funcionalidades que tornam a condução mais agradável.</li>
           </ul>
       
           <p>
             <strong>Opção de Aluguer Premium:</strong>
           </p>
           <ul>
-            <li>O Fiat Grand Siena é reconhecido como uma opção premium para aluguer de veículos, combinando desempenho e elegância.</li>
-            <li>Apesar do caráter premium, oferece uma opção atraente para diversas necessidades de mobilidade.</li>
-            <li>Com eficiência de combustível e manutenção de alto padrão, o Fiat Grand Siena proporciona uma experiência de condução premium acessível.</li>
+            <li>Possibilidade de pacote de aluguer premium, oferecendo benefícios adicionais para os clientes.</li>
+            <li>Benefícios podem incluir manutenção inclusa, assistência 24 horas e opções de troca de veículo durante o período de aluguer.</li>
           </ul>
         </>
       ),      
@@ -500,10 +502,9 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Dados Técnicos:</strong>
           </p>
           <ul>
-            <li>Motor: 1.8L, 4 cilindros</li>
-            <li>Potência: 132 hp @ 6,000 rpm</li>
-            <li>Transmissão: Automática CVT</li>
-            <li>Consumo de Combustível: 29 mpg (cidade) / 37 mpg (estrada)</li>
+            <li>Motores otimizados para proporcionar equilíbrio entre desempenho e eficiência de combustível.</li>
+            <li>Opções de transmissão manual ou automática, dependendo da configuração escolhida.</li>
+            <li>Aceleração, velocidade máxima e eficiência de combustível adaptados às características do veículo.</li>
           </ul>
         </>
       ) as React.ReactNode,
@@ -521,36 +522,36 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Design Exterior:</strong>
           </p>
           <ul>
-            <li>O Mercedes-Benz C-Class possui um design elegante e aerodinâmico, combinando luxo e estilo.</li>
-            <li>Linhas fluídas e detalhes meticulosamente elaborados contribuem para sua estética atraente e sofisticada.</li>
-            <li>Disponível em uma variedade de cores premium e opções de acabamento que refletem a excelência da marca.</li>
+            <li>Estilo distintivo com a assinatura da Mercedes-Benz, combinando elegância e esportividade.</li>
+            <li>Grade frontal marcante, linhas fluidas e detalhes cromados para uma presença luxuosa.</li>
+            <li>Contornos aerodinâmicos para otimizar a eficiência e melhorar o desempenho.</li>
           </ul>
     
           <p>
             <strong>Interior Espaçoso e Confortável:</strong>
           </p>
           <ul>
-            <li>O interior do Mercedes-Benz C-Class oferece um ambiente espaçoso, com materiais de alta qualidade e acabamentos refinados.</li>
-            <li>Espaço generoso para passageiros e bagagem, proporcionando uma experiência de viagem confortável.</li>
-            <li>Assentos ergonomicamente projetados garantem o conforto mesmo em viagens longas.</li>
+            <li>Interior premium com materiais de alta qualidade, couro e detalhes em madeira ou alumínio.</li>
+            <li>Espaço bem aproveitado para proporcionar conforto aos ocupantes.</li>
+            <li>Assentos projetados ergonomicamente para oferecer suporte e conforto durante viagens longas.</li>
           </ul>
     
           <p>
             <strong>Tecnologia Avançada:</strong>
           </p>
           <ul>
-            <li>Equipado com um sistema de infoentretenimento de última geração, incluindo uma tela sensível ao toque e recursos intuitivos.</li>
-            <li>Conectividade aprimorada, oferecendo Bluetooth e integração perfeita com dispositivos móveis para uma experiência de condução conectada.</li>
-            <li>Recursos avançados de assistência ao condutor, como alerta de colisão e controle de cruzeiro adaptativo, proporcionam segurança e conveniência.</li>
+            <li>Sistema de infoentretenimento avançado com MBUX, interface intuitiva e controle por voz.</li>
+            <li>Conectividade com smartphones, navegação avançada e integração com assistentes virtuais.</li>
+            <li>Suite abrangente de recursos de segurança, incluindo frenagem automática de emergência, assistência de permanência na faixa e controle de cruzeiro adaptativo.</li>
+            <li>Opções de sistemas de áudio premium para uma experiência de áudio imersiva.</li>
           </ul>
     
           <p>
             <strong>Opção Premium de Aluguer:</strong>
           </p>
           <ul>
-            <li>O Mercedes-Benz C-Class é uma escolha premium para aluguer de veículos, oferecendo desempenho e sofisticação.</li>
-            <li>Os custos podem refletir a qualidade premium, mas a experiência de condução e o status são incomparáveis.</li>
-            <li>Manutenção e eficiência de combustível são características que fazem do C-Class uma opção luxuosa e econômica.</li>
+            <li>Possibilidade de pacote de aluguer premium, oferecendo vantagens exclusivas aos clientes.</li>
+            <li>Benefícios podem incluir manutenção inclusa, assistência 24 horas, substituição de veículo e serviços adicionais.</li>
           </ul>
         </>
       ),
@@ -560,10 +561,10 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Dados Técnicos:</strong>
           </p>
           <ul>
-            <li>Motor: 1.8L, 4 cilindros</li>
-            <li>Potência: 132 hp @ 6,000 rpm</li>
-            <li>Transmissão: Automática CVT</li>
-            <li>Consumo de Combustível: 29 mpg (cidade) / 37 mpg (estrada)</li>
+            <li>Motores potentes e eficientes, proporcionando uma combinação de desempenho e economia.</li>
+            <li>Opções de transmissão automática de várias velocidades para uma condução suave.</li>
+            <li>Aceleração rápida, velocidade máxima e sistemas de suspensão adaptativa para desempenho dinâmico.</li>
+            <li>Possíveis opções híbridas para eficiência energética e baixas emissões.</li>
           </ul>
         </>
       ) as React.ReactNode,
@@ -580,36 +581,35 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Design Exterior:</strong>
           </p>
           <ul>
-            <li>O 2024 Mazda CX-5 possui um design elegante e aerodinâmico, combinando luxo e estilo.</li>
-            <li>Linhas fluídas e detalhes meticulosamente elaborados contribuem para sua estética atraente e sofisticada.</li>
-            <li>Disponível em uma variedade de cores premium e opções de acabamento que refletem a excelência da marca.</li>
+            <li>Estilo moderno e distintivo.</li>
+            <li>Detalhes aerodinâmicos para eficiência e apelo visual.</li>
+            <li>Possíveis atualizações na grade, faróis e outros elementos de design.</li>
           </ul>
     
           <p>
             <strong>Interior Espaçoso e Confortável:</strong>
           </p>
           <ul>
-            <li>O interior do 2024 Mazda CX-5 oferece um ambiente espaçoso, com materiais de alta qualidade e acabamentos refinados.</li>
-            <li>Espaço generoso para passageiros e bagagem, proporcionando uma experiência de viagem confortável.</li>
-            <li>Assentos ergonomicamente projetados garantem o conforto mesmo em viagens longas.</li>
+            <li>Ambiente interno otimizado para conforto.</li>
+            <li>Espaço bem aproveitado para passageiros e carga.</li>
+            <li>Acabamentos de alta qualidade e opções de personalização.</li>
           </ul>
     
           <p>
             <strong>Tecnologia Avançada:</strong>
           </p>
           <ul>
-            <li>Equipado com um sistema de infoentretenimento de última geração, incluindo uma tela sensível ao toque e recursos intuitivos.</li>
-            <li>Conectividade aprimorada, oferecendo Bluetooth e integração perfeita com dispositivos móveis para uma experiência de condução conectada.</li>
-            <li>Recursos avançados de assistência ao condutor, como alerta de colisão e controle de cruzeiro adaptativo, proporcionam segurança e conveniência.</li>
+            <li>Sistema de infoentretenimento moderno.</li>
+            <li>Integração com smartphones e possíveis avanços no sistema de navegação.</li>
+            <li>Recursos de segurança avançados e assistência à condução.</li>
           </ul>
     
           <p>
             <strong>Opção Premium de Aluguer:</strong>
           </p>
           <ul>
-            <li>O 2024 Mazda CX-5 é uma escolha premium para aluguer de veículos, oferecendo desempenho e sofisticação.</li>
-            <li>Os custos podem refletir a qualidade premium, mas a experiência de condução e o status são incomparáveis.</li>
-            <li>Manutenção e eficiência de combustível são características que fazem do 2024 Mazda CX-5 uma opção luxuosa e econômica.</li>
+            <li>Possibilidade de pacote de aluguer premium.</li>
+            <li>Benefícios como manutenção inclusa, assistência 24 horas e serviços adicionais.</li>
           </ul>
         </>
       ),
@@ -619,10 +619,9 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Dados Técnicos:</strong>
           </p>
           <ul>
-            <li>Motor: 1.8L, 4 cilindros</li>
-            <li>Potência: 132 hp @ 6,000 rpm</li>
-            <li>Transmissão: Automática CVT</li>
-            <li>Consumo de Combustível: 29 mpg (cidade) / 37 mpg (estrada)</li>
+            <li>Motores eficientes e potentes.</li>
+            <li>Opções de transmissão automática ou manual.</li>
+            <li>Desempenho adaptado para eficiência e experiência de condução.</li>
           </ul>
         </>
       ) as React.ReactNode,
@@ -639,36 +638,35 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Design Exterior:</strong>
           </p>
           <ul>
-            <li>O 2024 Hyundai Tucson possui um design elegante e aerodinâmico, combinando luxo e estilo.</li>
-            <li>Linhas fluídas e detalhes meticulosamente elaborados contribuem para sua estética atraente e sofisticada.</li>
-            <li>Disponível em uma variedade de cores premium e opções de acabamento que refletem a excelência da marca.</li>
+            <li>Estilo contemporâneo e distintivo.</li>
+            <li>Possíveis atualizações na grade, faróis e linhas aerodinâmicas.</li>
+            <li>Detalhes que combinam elegância e modernidade.</li>
           </ul>
     
           <p>
             <strong>Interior Espaçoso e Confortável:</strong>
           </p>
           <ul>
-            <li>O interior do 2024 Hyundai Tucson oferece um ambiente espaçoso, com materiais de alta qualidade e acabamentos refinados.</li>
-            <li>Espaço generoso para passageiros e bagagem, proporcionando uma experiência de viagem confortável.</li>
-            <li>Assentos ergonomicamente projetados garantem o conforto mesmo em viagens longas.</li>
+            <li>Layout interno otimizado para proporcionar conforto aos ocupantes.</li>
+            <li>Espaço generoso para passageiros e bagagem.</li>
+            <li>Materiais de alta qualidade e design ergonômico.</li>
           </ul>
     
           <p>
             <strong>Tecnologia Avançada:</strong>
           </p>
           <ul>
-            <li>Equipado com um sistema de infoentretenimento de última geração, incluindo uma tela sensível ao toque e recursos intuitivos.</li>
-            <li>Conectividade aprimorada, oferecendo Bluetooth e integração perfeita com dispositivos móveis para uma experiência de condução conectada.</li>
-            <li>Recursos avançados de assistência ao condutor, como alerta de colisão e controle de cruzeiro adaptativo, proporcionam segurança e conveniência.</li>
+            <li>Sistema de infoentretenimento avançado.</li>
+            <li>Conectividade com smartphones e possíveis recursos de assistência ao motorista.</li>
+            <li>Tecnologias inovadoras para aprimorar a experiência de condução.</li>
           </ul>
     
           <p>
             <strong>Opção Premium de Aluguer:</strong>
           </p>
           <ul>
-            <li>O 2024 Hyundai Tucson é uma escolha premium para aluguer de veículos, oferecendo desempenho e sofisticação.</li>
-            <li>Os custos podem refletir a qualidade premium, mas a experiência de condução e o status são incomparáveis.</li>
-            <li>Manutenção e eficiência de combustível são características que fazem do 2024 Hyundai Tucson uma opção luxuosa e econômica.</li>
+            <li>Oferta de pacote de aluguer premium.</li>
+            <li>Benefícios como manutenção inclusa, assistência 24 horas e serviços adicionais.</li>
           </ul>
         </>
       ),
@@ -678,10 +676,9 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Dados Técnicos:</strong>
           </p>
           <ul>
-            <li>Motor: 1.8L, 4 cilindros</li>
-            <li>Potência: 132 hp @ 6,000 rpm</li>
-            <li>Transmissão: Automática CVT</li>
-            <li>Consumo de Combustível: 29 mpg (cidade) / 37 mpg (estrada)</li>
+            <li>Motores eficientes e opções de trem de força.</li>
+            <li>Especificações de desempenho adaptadas para eficiência e desempenho dinâmico.</li>
+            <li>Opções de transmissão automática ou manual.</li>
           </ul>
         </>
       ) as React.ReactNode,
@@ -698,36 +695,35 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Design Exterior:</strong>
           </p>
           <ul>
-            <li>O 2023 Maserati Grecale possui um design elegante e aerodinâmico, combinando luxo e estilo.</li>
-            <li>Linhas fluídas e detalhes meticulosamente elaborados contribuem para sua estética atraente e sofisticada.</li>
-            <li>Disponível em uma variedade de cores premium e opções de acabamento que refletem a excelência da marca.</li>
+            <li>Estilo distintivo e elegante, refletindo a identidade da Maserati.</li>
+            <li>Linhas aerodinâmicas e detalhes sofisticados.</li>
+            <li>Possíveis opções de pintura e acabamentos premium.</li>
           </ul>
     
           <p>
             <strong>Interior Espaçoso e Confortável:</strong>
           </p>
           <ul>
-            <li>O interior do 2023 Maserati Grecale oferece um ambiente espaçoso, com materiais de alta qualidade e acabamentos refinados.</li>
-            <li>Espaço generoso para passageiros e bagagem, proporcionando uma experiência de viagem confortável.</li>
-            <li>Assentos ergonomicamente projetados garantem o conforto mesmo em viagens longas.</li>
+            <li>Layout interno otimizado para proporcionar conforto.</li>
+            <li>Uso de materiais de alta qualidade e acabamentos luxuosos.</li>
+            <li>Espaço generoso para passageiros e bagagem.</li>
           </ul>
     
           <p>
             <strong>Tecnologia Avançada:</strong>
           </p>
           <ul>
-            <li>Equipado com um sistema de infoentretenimento de última geração, incluindo uma tela sensível ao toque e recursos intuitivos.</li>
-            <li>Conectividade aprimorada, oferecendo Bluetooth e integração perfeita com dispositivos móveis para uma experiência de condução conectada.</li>
-            <li>Recursos avançados de assistência ao condutor, como alerta de colisão e controle de cruzeiro adaptativo, proporcionam segurança e conveniência.</li>
+            <li>Sistema de infoentretenimento de última geração.</li>
+            <li>Sistema de infoentretenimento de última geração.</li>
+            <li>Tecnologias inovadoras para aprimorar a experiência de condução.</li>
           </ul>
     
           <p>
             <strong>Opção Premium de Aluguer:</strong>
           </p>
           <ul>
-            <li>O 2023 Maserati Grecale é uma escolha premium para aluguer de veículos, oferecendo desempenho e sofisticação.</li>
-            <li>Os custos podem refletir a qualidade premium, mas a experiência de condução e o status são incomparáveis.</li>
-            <li>Manutenção e eficiência de combustível são características que fazem do 2023 Maserati Grecale uma opção luxuosa e econômica.</li>
+            <li>Possibilidade de pacote de aluguer premium.</li>
+            <li>Benefícios como manutenção inclusa, assistência 24 horas e serviços adicionais exclusivos.</li>
           </ul>
         </>
       ),
@@ -737,10 +733,9 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Dados Técnicos:</strong>
           </p>
           <ul>
-            <li>Motor: 1.8L, 4 cilindros</li>
-            <li>Potência: 132 hp @ 6,000 rpm</li>
-            <li>Transmissão: Automática CVT</li>
-            <li>Consumo de Combustível: 29 mpg (cidade) / 37 mpg (estrada)</li>
+            <li>Motorização potente e eficiente.</li>
+            <li>Especificações de desempenho adaptadas para uma experiência de condução esportiva.</li>
+            <li>Opções de transmissão automática ou manual.</li>
           </ul>
         </>
       ) as React.ReactNode,
@@ -757,36 +752,35 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Design Exterior:</strong>
           </p>
           <ul>
-            <li>O BMW 3 Series possui um design moderno e aerodinâmico que combina elegância e esportividade.</li>
-            <li>Linhas fluidas e detalhes precisos contribuem para uma estética atraente e dinâmica.</li>
-            <li>Disponível em uma variedade de cores vibrantes e opções de acabamento premium.</li>
+            <li>Estilo icônico da BMW, combinando elegância e esportividade.</li>
+            <li>Linhas dinâmicas e detalhes aerodinâmicos.</li>
+            <li>Opções de design premium, como faróis LED e grade frontal característica.</li>
           </ul>
     
           <p>
             <strong>Interior Espaçoso e Confortável:</strong>
           </p>
           <ul>
-            <li>O interior do BMW 3 Series oferece amplo espaço para passageiros e bagagem, combinando conforto e funcionalidade.</li>
-            <li>Materiais de alta qualidade e acabamentos refinados criam um ambiente sofisticado.</li>
-            <li>Assentos ergonomicamente projetados proporcionam conforto durante viagens longas e passeios dinâmicos.</li>
+            <li>Interior luxuoso com materiais de alta qualidade.</li>
+            <li>Espaço otimizado para passageiros e bagagem.</li>
+            <li>Assentos ergonômicos e opções de personalização.</li>
           </ul>
     
           <p>
             <strong>Tecnologia Avançada:</strong>
           </p>
           <ul>
-            <li>Equipado com um sistema de infoentretenimento de última geração, incluindo uma tela sensível ao toque e recursos intuitivos.</li>
-            <li>Recursos de conectividade, como Bluetooth e integração com smartphones, oferecem uma experiência de condução conectada.</li>
-            <li>Sistemas avançados de assistência ao condutor, como alerta de colisão e controle de cruzeiro adaptativo, elevam a segurança e a conveniência.</li>
+            <li>Sistema de infoentretenimento de última geração.</li>
+            <li>BMW iDrive com controle intuitivo e tela sensível ao toque.</li>
+            <li>Recursos avançados de assistência ao motorista, como controle de cruzeiro adaptativo e assistência de estacionamento.</li>
           </ul>
     
           <p>
             <strong>Opção Premium de Aluguer:</strong>
           </p>
           <ul>
-            <li>O BMW 3 Series é uma escolha premium para aluguer de veículos, destacando-se pelo desempenho e pela elegância.</li>
-            <li>Custos de aluguer refletem a qualidade premium e a experiência de condução envolvente.</li>
-            <li>Manutenção eficiente e eficiência de combustível fazem do BMW 3 Series uma opção atraente para viagens.</li>
+            <li>Possibilidade de pacote de aluguer premium.</li>
+            <li>Benefícios como manutenção inclusa, assistência 24 horas e serviços exclusivos.</li>
           </ul>
         </>
       ) as React.ReactNode,
@@ -796,10 +790,9 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Dados Técnicos:</strong>
           </p>
           <ul>
-            <li>Motor: 1.8L, 4 cilindros</li>
-            <li>Potência: 132 hp @ 6,000 rpm</li>
-            <li>Transmissão: Automática CVT</li>
-            <li>Consumo de Combustível: 29 mpg (cidade) / 37 mpg (estrada)</li>
+            <li>Motores potentes e eficientes.</li>
+            <li>Opções de transmissão automática ou manual, dependendo da versão.</li>
+            <li>Especificações de desempenho adaptadas para uma experiência de condução dinâmica.</li>
           </ul>
         </>
       ) as React.ReactNode,
@@ -815,36 +808,35 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Design Exterior:</strong>
           </p>
           <ul>
-            <li>O 2024 Cadillac CT4 possui um design moderno e aerodinâmico que combina elegância e esportividade.</li>
-            <li>Linhas fluidas e detalhes precisos contribuem para uma estética atraente e dinâmica.</li>
-            <li>Disponível em uma variedade de cores vibrantes e opções de acabamento premium.</li>
+            <li>Estilo distintivo e elegante da Cadillac.</li>
+            <li>Detalhes aerodinâmicos e design moderno.</li>
+            <li>Possíveis opções de acabamento e detalhes cromados.</li>
           </ul>
     
           <p>
             <strong>Interior Espaçoso e Confortável:</strong>
           </p>
           <ul>
-            <li>O interior do 2024 Cadillac CT4 oferece amplo espaço para passageiros e bagagem, combinando conforto e funcionalidade.</li>
-            <li>Materiais de alta qualidade e acabamentos refinados criam um ambiente sofisticado.</li>
-            <li>Assentos ergonomicamente projetados proporcionam conforto durante viagens longas e passeios dinâmicos.</li>
+            <li>Layout interno otimizado para proporcionar conforto aos ocupantes.</li>
+            <li>Materiais de alta qualidade e acabamentos premium.</li>
+            <li>Recursos de personalização e espaço para passageiros.</li>
           </ul>
     
           <p>
             <strong>Tecnologia Avançada:</strong>
           </p>
           <ul>
-            <li>Equipado com um sistema de infoentretenimento de última geração, incluindo uma tela sensível ao toque e recursos intuitivos.</li>
-            <li>Recursos de conectividade, como Bluetooth e integração com smartphones, oferecem uma experiência de condução conectada.</li>
-            <li>Sistemas avançados de assistência ao condutor, como alerta de colisão e controle de cruzeiro adaptativo, elevam a segurança e a conveniência.</li>
+            <li>Sistema de infoentretenimento avançado.</li>
+            <li>Integração com smartphones e possíveis recursos de assistência ao motorista.</li>
+            <li>Tecnologias inovadoras para aprimorar a experiência de condução.</li>
           </ul>
     
           <p>
             <strong>Opção Premium de Aluguer:</strong>
           </p>
           <ul>
-            <li>O 2024 Cadillac CT4 é uma escolha premium para aluguer de veículos, destacando-se pelo desempenho e pela elegância.</li>
-            <li>Custos de aluguer refletem a qualidade premium e a experiência de condução envolvente.</li>
-            <li>Manutenção eficiente e eficiência de combustível fazem do 2024 Cadillac CT4 uma opção atraente para viagens.</li>
+            <li>Possibilidade de pacote de aluguer premium.</li>
+            <li>Benefícios como manutenção inclusa, assistência 24 horas e serviços adicionais exclusivos.</li>
           </ul>
         </>
       ) as React.ReactNode,
@@ -854,10 +846,9 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Dados Técnicos:</strong>
           </p>
           <ul>
-            <li>Motor: 1.8L, 4 cilindros</li>
-            <li>Potência: 132 hp @ 6,000 rpm</li>
-            <li>Transmissão: Automática CVT</li>
-            <li>Consumo de Combustível: 29 mpg (cidade) / 37 mpg (estrada)</li>
+            <li>Motorização eficiente e potente.</li>
+            <li>Especificações de desempenho adaptadas para uma condução dinâmica.</li>
+            <li>Opções de transmissão automática ou manual, dependendo da versão.</li>
           </ul>
         </>
       ) as React.ReactNode,
@@ -873,36 +864,35 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Design Exterior:</strong>
           </p>
           <ul>
-            <li>O 2023 Tesla Model 3 possui um design moderno e aerodinâmico que combina elegância e esportividade.</li>
-            <li>Linhas fluidas e detalhes precisos contribuem para uma estética atraente e dinâmica.</li>
-            <li>Disponível em uma variedade de cores vibrantes e opções de acabamento premium.</li>
+            <li>Estilo moderno e aerodinâmico característico dos veículos Tesla.</li>
+            <li>Linhas suaves e minimalistas.</li>
+            <li>Opções de cores e detalhes personalizáveis.</li>
           </ul>
     
           <p>
             <strong>Interior Espaçoso e Confortável:</strong>
           </p>
           <ul>
-            <li>O interior do 2023 Tesla Model 3 oferece amplo espaço para passageiros e bagagem, combinando conforto e funcionalidade.</li>
-            <li>Materiais de alta qualidade e acabamentos refinados criam um ambiente sofisticado.</li>
-            <li>Assentos ergonomicamente projetados proporcionam conforto durante viagens longas e passeios dinâmicos.</li>
+            <li>Interior minimalista com foco na simplicidade e elegância.</li>
+            <li>Espaço generoso para passageiros e carga.</li>
+            <li>Assentos ergonômicos e materiais de alta qualidade.</li>
           </ul>
     
           <p>
             <strong>Tecnologia Avançada:</strong>
           </p>
           <ul>
-            <li>Equipado com um sistema de infoentretenimento de última geração, incluindo uma tela sensível ao toque e recursos intuitivos.</li>
-            <li>Recursos de conectividade, como Bluetooth e integração com smartphones, oferecem uma experiência de condução conectada.</li>
-            <li>Sistemas avançados de assistência ao condutor, como alerta de colisão e controle de cruzeiro adaptativo, elevam a segurança e a conveniência.</li>
+            <li>Sistema Autopilot: Recurso avançado de assistência ao motorista.</li>
+            <li>Tela Central: Display touchscreen para controle intuitivo.</li>
+            <li>Conectividade: Integração com aplicativos, atualizações over-the-air e comandos de voz.</li>
           </ul>
     
           <p>
             <strong>Opção Premium de Aluguer:</strong>
           </p>
           <ul>
-            <li>O 2023 Tesla Model 3 é uma escolha premium para aluguer de veículos, destacando-se pelo desempenho e pela elegância.</li>
-            <li>Custos de aluguer refletem a qualidade premium e a experiência de condução envolvente.</li>
-            <li>Manutenção eficiente e eficiência de combustível fazem do 2023 Tesla Model 3 uma opção atraente para viagens.</li>
+            <li>Possibilidade de pacote de aluguer premium.</li>
+            <li>Benefícios como manutenção inclusa, acesso a recursos avançados e serviços exclusivos.</li>
           </ul>
         </>
       ) as React.ReactNode,
@@ -912,10 +902,9 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Dados Técnicos:</strong>
           </p>
           <ul>
-            <li>Motor: 1.8L, 4 cilindros</li>
-            <li>Potência: 132 hp @ 6,000 rpm</li>
-            <li>Transmissão: Automática CVT</li>
-            <li>Consumo de Combustível: 29 mpg (cidade) / 37 mpg (estrada)</li>
+            <li>Autonomia: Varia de acordo com a configuração da bateria.</li>
+            <li>Desempenho: Aceleração rápida e experiência de condução ágil.</li>
+            <li>Bateria: Capacidade e opções de carregamento rápido.</li>
           </ul>
         </>
       ) as React.ReactNode,
@@ -930,36 +919,35 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Design Exterior:</strong>
           </p>
           <ul>
-            <li>O 2023 Genesis G70 possui um design moderno e aerodinâmico que combina elegância e esportividade.</li>
-            <li>Linhas fluidas e detalhes precisos contribuem para uma estética atraente e dinâmica.</li>
-            <li>Disponível em uma variedade de cores vibrantes e opções de acabamento premium.</li>
+            <li>Estilo refinado e elegante característico da Genesis.</li>
+            <li>Linhas aerodinâmicas e detalhes distintos.</li>
+            <li>Opções de acabamento e detalhes cromados.</li>
           </ul>
     
           <p>
             <strong>Interior Espaçoso e Confortável:</strong>
           </p>
           <ul>
-            <li>O interior do 2023 Genesis G70 oferece amplo espaço para passageiros e bagagem, combinando conforto e funcionalidade.</li>
-            <li>Materiais de alta qualidade e acabamentos refinados criam um ambiente sofisticado.</li>
-            <li>Assentos ergonomicamente projetados proporcionam conforto durante viagens longas e passeios dinâmicos.</li>
+            <li>Layout interno voltado para o conforto e a qualidade.</li>
+            <li>Materiais de alta qualidade e acabamentos premium.</li>
+            <li>Espaço otimizado para passageiros e carga.</li>
           </ul>
     
           <p>
             <strong>Tecnologia Avançada:</strong>
           </p>
           <ul>
-            <li>Equipado com um sistema de infoentretenimento de última geração, incluindo uma tela sensível ao toque e recursos intuitivos.</li>
-            <li>Recursos de conectividade, como Bluetooth e integração com smartphones, oferecem uma experiência de condução conectada.</li>
-            <li>Sistemas avançados de assistência ao condutor, como alerta de colisão e controle de cruzeiro adaptativo, elevam a segurança e a conveniência.</li>
+            <li>Sistema de infoentretenimento de última geração.</li>
+            <li>Integração com smartphones e possíveis recursos de assistência ao motorista.</li>
+            <li>Tecnologias inovadoras para aprimorar a experiência de condução.</li>
           </ul>
     
           <p>
             <strong>Opção Premium de Aluguer:</strong>
           </p>
           <ul>
-            <li>O 2023 Genesis G70 é uma escolha premium para aluguer de veículos, destacando-se pelo desempenho e pela elegância.</li>
-            <li>Custos de aluguer refletem a qualidade premium e a experiência de condução envolvente.</li>
-            <li>Manutenção eficiente e eficiência de combustível fazem do 2023 Genesis G70 uma opção atraente para viagens.</li>
+            <li>Possibilidade de pacote de aluguer premium.</li>
+            <li>Benefícios como manutenção inclusa, assistência 24 horas e serviços adicionais exclusivos.</li>
           </ul>
         </>
       ) as React.ReactNode,
@@ -969,10 +957,9 @@ dailyRentPrice: generateRandomPrice(),
             <strong>Dados Técnicos:</strong>
           </p>
           <ul>
-            <li>Motor: 1.8L, 4 cilindros</li>
-            <li>Potência: 132 hp @ 6,000 rpm</li>
-            <li>Transmissão: Automática CVT</li>
-            <li>Consumo de Combustível: 29 mpg (cidade) / 37 mpg (estrada)</li>
+            <li>Motores potentes e eficientes.</li>
+            <li>Especificações de desempenho adaptadas para uma condução dinâmica.</li>
+            <li>Opções de transmissão automática ou manual, dependendo da versão.</li>
           </ul>
         </>
       ) as React.ReactNode,
