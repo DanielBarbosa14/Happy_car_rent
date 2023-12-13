@@ -155,6 +155,7 @@ const Frota: React.FC = () => {
     },
     {
       name: 'Mercedes-Benz C-Class',
+
       description: (
         <>
         <IonImg src='https://www.mercedes-benz.pt/content/dam/hq/passengercars/cars/c-class/c-class-saloon-w206-pi/modeloverview/06-2022/images/mercedes-benz-c-class-w206-modeloverview-696x392-06-2022.png'/>
