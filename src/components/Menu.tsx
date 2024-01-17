@@ -9,7 +9,6 @@ import {
   IonMenuToggle,
   IonNote,
 } from '@ionic/react';
-
 import { useLocation } from 'react-router-dom';
 import { archiveOutline, archiveSharp, bookmarkOutline, carSportOutline, heartOutline, heartSharp, home, homeOutline, mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, storefrontOutline, trashOutline, trashSharp, warningOutline, warningSharp } from 'ionicons/icons';
 import './Menu.css';
