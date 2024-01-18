@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
   import {
     IonButtons,
     IonContent,
@@ -33,40 +33,20 @@ import React, { useState } from 'react';
     const [showModal, setShowModal] = useState(false);
     const [selectedStore, setSelectedStore] = useState<Store | null>(null);
     const history = useHistory();
-    
 
-    const stores: Store[] = [
-      {
-        name: 'Viana do Castelo',
-        description: 'Morada: Rua do Bairro do Mirante, 25 r/c , 4900-642 Areosa',
-        technicalData: 'Empresa de aluguer de carros desde 2013',
-        image: 'https://www.cm-viana-castelo.pt/wp-content/uploads/2023/07/DJI_0529-scaled.jpg',
-      },
-      {
-        name: 'Braga',
-        description: 'Morada: Edifício Só Barroso Av. da Independência, nº 3, 4705-162 - Nogueira | Braga',
-        technicalData: 'Empresa de aluguer de carros desde 2009',
-        image: 'https://lp-cms-production.imgix.net/2019-06/GettyImages-149519944_super%20copy.jpg',
-      },
-      {
-        name: 'Lisboa',
-        description: 'Morada: Estrada da Serra da Mira Lote 12 - Loja Dta. 2700-786 Amadora',
-        technicalData: 'Empresa de aluguer de carros desde 2003',
-        image: 'https://forbespt.fra1.digitaloceanspaces.com/wp-content/uploads/2021/06/23071356/lisboa-1.jpg',
-      },
-      {
-        name: 'Coimbra',
-        description: 'Morada: Rua do Mainho Cruzamento Sargento-Mor, 3020-832 Souselas',
-        technicalData: 'Empresa de aluguer de carros desde 1983',
-        image: 'https://www.civitatis.com/f/portugal/coimbra/coimbra-m.jpg',
-      },
-      {
-        name: 'Leiria',
-        description: 'Morada: IC2 KM 129 - BoaVista 2420 - 381 Leiria ',
-        technicalData: 'Empresa de aluguer de carros desde 2007',
-        image: 'https://eurotrip.com.br/wp-content/uploads/2020/04/leiria-portugal.jpg',
-      },
-    ];
+  useEffect(() => {
+    const fetchLojas = async () => {
+      try {
+        const response = await fetch('http://localhost:3000/lojas');
+        const lojaData = await response.json();
+        console.log('Dados das lojas', lojaData);
+        setSelectedStore(lojaData);
+      } catch (error) {
+        console.error('Erro ao obter dados das lojas:', (error as Error).message);
+      }
+    };
+      fetchLojas();
+    }, []);
 
     const handleOpenModal = (store: Store) => {
       setSelectedStore(store);
